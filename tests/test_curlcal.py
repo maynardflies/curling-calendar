@@ -95,6 +95,10 @@ class WikipediaTests(unittest.TestCase):
         self.assertFalse(draws[0]["playoff"])
         self.assertEqual((draws[1]["label"], draws[1]["games"], draws[1]["playoff"]), ("Final", [], True))
 
+    def test_player_percentages_are_not_games(self):
+        text = WIKI + "{{Player percentages\n| team1 = {{AB}}\n| team2 = {{MB}} (Dunstone)\n}}\n"
+        self.assertEqual(parsers.parse_wikipedia(text, self.event)[1]["games"], [])
+
     def test_wrong_time_zone_fails_loudly(self):
         with self.assertRaises(parsers.ParseError):
             parsers.parse_wikipedia(WIKI, dict(self.event, tz="America/Regina"))

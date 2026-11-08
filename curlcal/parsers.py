@@ -256,7 +256,7 @@ def parse_wikipedia(text, event):
         draws.append(_draw(event["id"], local, heading, games, not heading.startswith("Draw")))
         local, teams = None, []
 
-    started = False
+    started = in_game_box = False
     for line in text.split("\n"):
         title = re.fullmatch(r"=+\s*(.+?)\s*=+", line.strip())
         if title:
@@ -274,8 +274,10 @@ def parse_wikipedia(text, event):
             hour = int(when[3]) % 12 + (12 if when[5] == "p" else 0)
             local = f"{day.isoformat()}T{hour:02d}:{when[4]}"
             continue
+        if line.startswith("{{"):
+            in_game_box = line.startswith("{{Curlingbox")  # not {{Player percentages}}
         team = re.match(r"\|\s*team[12]\s*=(.*)", line)
-        if team and local is not None:
+        if team and local is not None and in_game_box:
             teams.append(_wiki_team(team[1]))
     close()
     return draws
