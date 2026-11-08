@@ -6,8 +6,9 @@ A page that has no schedule yet returns []; a page whose layout has changed rais
 """
 import html as html_lib
 import re
-from datetime import date
+from datetime import date, datetime
 from html.parser import HTMLParser
+from zoneinfo import ZoneInfo
 
 MONTHS = {
     "January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6,
@@ -218,10 +219,74 @@ def parse_rock_league(page, event):
     return draws
 
 
+def _check_stated_offset(text, event):
+    """Fails if a Wikipedia article's stated UTC offset disagrees with the venue's time zone."""
+    stated = re.search(r"draw times are listed in.*?UTC\s*([−+-])\s*(\d{1,2}):(\d{2})", text, re.I)
+    if not stated:
+        return  # no offset stated; times are taken as venue-local, as with World Curling
+    sign = -1 if stated[1] in "−-" else 1
+    minutes = sign * (int(stated[2]) * 60 + int(stated[3]))
+    moment = datetime(event["start"].year, event["start"].month, event["start"].day, 12,
+                      tzinfo=ZoneInfo(event["tz"]))
+    expected = int(moment.utcoffset().total_seconds() / 60)
+    if minutes != expected:
+        raise ParseError(f"{event['id']}: article says UTC offset {minutes} min, venue is {expected} min")
+
+
+def _wiki_team(value):
+    """'{{NL}} (Young) {{X}}' becomes 'NL (Young)'. Blank or unfilled entries become 'TBD'."""
+    code = re.search(r"\{\{([A-Z]{2,3})\}\}", value)
+    skip = re.search(r"\(([^)]+)\)", value)
+    if code and skip:
+        return f"{code[1]} ({skip[1]})"
+    plain = re.sub(r"\{\{[^}]*\}\}", "", value).strip()
+    return plain or "TBD"
+
+
+def parse_wikipedia(text, event):
+    """Parses the draw sections of a Canadian championship article. Every team is Canadian."""
+    _check_stated_offset(text, event)
+    draws, heading, local, teams = [], None, None, []
+
+    def close():
+        nonlocal local, teams
+        if local is None:
+            return
+        games = [{"a": a, "b": b, "a_c": "CAN", "b_c": "CAN"} for a, b in zip(teams[::2], teams[1::2])]
+        draws.append(_draw(event["id"], local, heading, games, not heading.startswith("Draw")))
+        local, teams = None, []
+
+    started = False
+    for line in text.split("\n"):
+        title = re.fullmatch(r"=+\s*(.+?)\s*=+", line.strip())
+        if title:
+            close()
+            started = started or title[1].lower().startswith("round robin results")
+            heading = title[1]
+            continue
+        if not started:
+            continue
+        when = re.fullmatch(r"''[A-Z][a-z]+day, ([A-Z][a-z]+) (\d{1,2}), (\d{1,2}):(\d{2}) ([ap])m''", line.strip())
+        if when and when[1] in MONTHS:
+            close()
+            month = MONTHS[when[1]]
+            day = date(_year_for(month, event["start"]), month, int(when[2]))
+            hour = int(when[3]) % 12 + (12 if when[5] == "p" else 0)
+            local = f"{day.isoformat()}T{hour:02d}:{when[4]}"
+            continue
+        team = re.match(r"\|\s*team[12]\s*=(.*)", line)
+        if team and local is not None:
+            teams.append(_wiki_team(team[1]))
+    close()
+    return draws
+
+
 def hometown_country(hometown):
     """Maps a Grand Slam 'Hometown' string to a country code, or "" for anywhere untracked."""
     if re.search(rf",\s*({PROVINCES})\s*$", hometown):
         return "CAN"
+    if re.search(r"Spain|España", hometown):
+        return "ESP"
     if re.search(r"Turkey|Türkiye", hometown):
         return "TUR"
     if re.search(r"Czechia|Czech Republic", hometown):

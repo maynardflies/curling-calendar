@@ -8,21 +8,15 @@ from zoneinfo import ZoneInfo
 from . import season
 
 MADRID = ZoneInfo("Europe/Madrid")
-FLAGS = {"CAN": "🇨🇦", "TUR": "🇹🇷", "CZE": "🇨🇿"}
+FLAGS = {"CAN": "🇨🇦", "ESP": "🇪🇸", "TUR": "🇹🇷", "CZE": "🇨🇿"}
 DTSTAMP = "20261108T000000Z"  # fixed so unchanged events produce byte-identical feeds
-NO_STREAM = {"wcf_scores", "canadian"}
-REMINDER_FIRST_HOUR = 8  # no game reminders before 08:00 Spanish time
+MAX_GAMES_IN_TITLE = 4  # a Brier draw has up to nine games; those go in the description
 GSOC_NOTE = ("Which draws DAZN carries is based on the Masters schedule; "
              "this event's broadcast schedule had not been published when this was written.")
 
 
 def _tracked(game, tracked):
     return [c for c in (game["a_c"], game["b_c"]) if c in tracked]
-
-
-def gsoc_on_dazn(local, label):
-    """DAZN showed draws from late morning on at the Masters, but not early draws or tiebreakers."""
-    return local.hour >= 10 and "tiebreak" not in label.lower()
 
 
 def game_entries(event, draws, tracked):
@@ -49,6 +43,8 @@ def game_entries(event, draws, tracked):
         matchups = ", ".join(f"{g['a']} v {g['b']}" for g in games)
         if event["source"]["type"] == "rock_league" and playoff_labels:
             title_core = f"{playoff_labels[0]} (teams TBD)"
+        elif len(games) > MAX_GAMES_IN_TITLE:
+            title_core = f"{group[0][0]['label']}, {len(games)} games"
         elif matchups:
             title_core = matchups
         elif event["source"]["type"] == "gsoc":
@@ -58,12 +54,7 @@ def game_entries(event, draws, tracked):
         summary = f"{flags + ' ' if flags else ''}{title_core} · {short}"
 
         watch_key = event["watch"]
-        label_text = " ".join(d["label"] for d, _ in group)
-        watchable = watch_key not in NO_STREAM
-        note = ""
-        if watch_key == "gsoc":
-            watchable = gsoc_on_dazn(local, label_text)
-            note = GSOC_NOTE
+        note = GSOC_NOTE if watch_key == "gsoc" else ""
         entries.append({
             "id": group[0][0]["id"],
             "event": event["id"],
@@ -72,7 +63,6 @@ def game_entries(event, draws, tracked):
             "end": (start + timedelta(hours=event["game_hours"])).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "city": event["city"],
             "watch_key": watch_key,
-            "watchable": watchable,
             "note": note,
             "countries": [c for c in tracked if flags and FLAGS[c] in flags],
             "tier": event["tier"],
@@ -161,7 +151,10 @@ def collect():
 
 
 def personal_plan(data, blocks, games, today):
-    """The events for the personal Google calendar. Written by hand via the Calendar connector."""
+    """The events for the personal Google calendar, written through the Calendar connector.
+
+    Each description ends with a "ref:" line. That key is how a later sync recognises the event.
+    """
     plan = []
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for block in blocks:
@@ -170,21 +163,21 @@ def personal_plan(data, blocks, games, today):
         plan.append({"key": block["id"], "summary": block["summary"], "allDay": True,
                      "startTime": f"{block['start']}T00:00:00",
                      "endTime": f"{block['end_exclusive']}T00:00:00",
-                     "location": block["city"], "description": block["description"],
+                     "location": block["city"],
+                     "description": f"{block['description']}\n\nref: {block['id']}",
                      "reminders": [{"method": "popup", "minutes": 900}]})  # 09:00 the day before
     for game in games:
         if game["tier"] != 1 or game["start"] < now_utc:
             continue
         start = datetime.fromisoformat(game["start"]).astimezone(MADRID)
         end = datetime.fromisoformat(game["end"]).astimezone(MADRID)
-        remind = game["watchable"] and start.hour >= REMINDER_FIRST_HOUR
+        description = _describe(game["lines"], data["watch"][game["watch_key"]], game["note"], game["url"])
         plan.append({"key": game["id"], "summary": game["summary"], "allDay": False,
                      "startTime": start.strftime("%Y-%m-%dT%H:%M:%S"),
                      "endTime": end.strftime("%Y-%m-%dT%H:%M:%S"),
                      "location": game["city"],
-                     "description": _describe(game["lines"], data["watch"][game["watch_key"]],
-                                              game["note"], game["url"]),
-                     "reminders": [{"method": "popup", "minutes": 30}] if remind else []})
+                     "description": f"{description}\n\nref: {game['id']}",
+                     "reminders": [{"method": "popup", "minutes": 30}]})
     return plan
 
 
@@ -199,7 +192,7 @@ def main(today=None):
     game_body = [line for g in games for line in _game_vevent(g, data["watch"][g["watch_key"]])]
     feeds = {
         "tournaments.ics": ("Curling tournaments", block_body),
-        "games.ics": ("Curling games (Canada, Türkiye, Czechia)", game_body),
+        "games.ics": ("Curling games (Canada, Spain, Türkiye, Czechia)", game_body),
         "all.ics": ("Curling on TV", block_body + game_body),
     }
     for filename, (name, body) in feeds.items():

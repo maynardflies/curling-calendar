@@ -6,7 +6,7 @@
 # end is the last day of play (inclusive). tz is the venue's IANA time zone.
 
 season = "2026-27"
-tracked = ["CAN", "TUR", "CZE"]
+tracked = ["CAN", "ESP", "TUR", "CZE"]
 
 # worldcurling.org/events/<slug>/ entries that are deliberately not on the calendar.
 ignored_wcf_slugs = ["congress", "europeans", "olympics", "page", "paralympics", "wcpqe", "wcpqpc", "yog2024"]
@@ -219,6 +219,8 @@ tz = "America/Halifax"
 tier = 1
 watch = "tsn"
 url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+source = { type = "wikipedia", page = "2027_Scotties_Tournament_of_Hearts" }
+game_hours = 3.0
 
 [[event]]
 id = "world-wheelchair"
@@ -265,6 +267,8 @@ tz = "America/Regina"
 tier = 1
 watch = "tsn"
 url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+source = { type = "wikipedia", page = "2027_Montana's_Brier" }
+game_hours = 3.0
 
 [[event]]
 id = "world-wheelchair-md"

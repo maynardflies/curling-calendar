@@ -1,7 +1,7 @@
 # Curling on TV
 
 A subscribable calendar of the curling season: every tournament, plus the games involving
-Canada, Türkiye and Czechia.
+Canada, Spain, Türkiye and Czechia.
 
 - `data/season.toml` lists the events by hand. Add or correct tournaments here.
 - `python -m curlcal.refresh` reads the official schedules into `data/draws/`.

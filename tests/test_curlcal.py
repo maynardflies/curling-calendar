@@ -35,6 +35,7 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(parsers.hometown_country("Chaska, MN"), "")
         self.assertEqual(parsers.hometown_country("Erzurum, Turkey"), "TUR")
         self.assertEqual(parsers.hometown_country("Prague, Czechia"), "CZE")
+        self.assertEqual(parsers.hometown_country("Jaca, Spain"), "ESP")
 
     def test_gsoc_unknown_team_fails_loudly(self):
         page = ("<table><tr><td>Tuesday, Nov. 17</td></tr><tr><td>12 p.m.</td><td>2</td>"
@@ -65,6 +66,38 @@ class ParserTests(unittest.TestCase):
         draw = parsers.parse_gsoc_article(page, event, {"paetz": ""})[0]
         self.assertEqual(draw["local"], "2026-11-17T12:00")
         self.assertEqual(draw["label"], "Draw 2")
+
+
+WIKI = """==Round robin results==
+All draw times are listed in [[Atlantic Time]] ([[UTC−04:00]]).
+===Draw 1===
+''Friday, February 12, 7:30 pm''
+{{Curlingbox
+| sheet = A
+| team1 = {{NS}} (Black) {{X}}
+|0|1| |8
+| team2 = {{MB}} (Einarson)
+|1|0| |4
+}}
+==Playoffs==
+===Final===
+''Sunday, February 21, 1:30 pm''
+"""
+
+
+class WikipediaTests(unittest.TestCase):
+    event = dict(EVENT, id="s", start=date(2027, 2, 12), end=date(2027, 2, 21), tz="America/Halifax")
+
+    def test_draws_and_playoffs(self):
+        draws = parsers.parse_wikipedia(WIKI, self.event)
+        self.assertEqual(draws[0]["local"], "2027-02-12T19:30")
+        self.assertEqual((draws[0]["games"][0]["a"], draws[0]["games"][0]["b"]), ("NS (Black)", "MB (Einarson)"))
+        self.assertFalse(draws[0]["playoff"])
+        self.assertEqual((draws[1]["label"], draws[1]["games"], draws[1]["playoff"]), ("Final", [], True))
+
+    def test_wrong_time_zone_fails_loudly(self):
+        with self.assertRaises(parsers.ParseError):
+            parsers.parse_wikipedia(WIKI, dict(self.event, tz="America/Regina"))
 
 
 class BuildTests(unittest.TestCase):

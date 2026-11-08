@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Curling on TV</title>
-<meta name="description" content="Every curling tournament of the season, and when Canada, Türkiye and Czechia play, in your own time zone.">
+<meta name="description" content="Every curling tournament of the season, and when Canada, Spain, Türkiye and Czechia play, in your own time zone.">
 <style>
 :root {
   --bg: #f3f6f9; --card: #ffffff; --ink: #14212e; --muted: #5b6b7b; --line: #dbe3ea;
@@ -46,7 +46,7 @@ footer { color: var(--muted); font-size: .82rem; margin-top: 40px; }
 <body>
 <main>
   <h1>Curling on TV</h1>
-  <p class="lede">Every tournament this season, plus when Canada, Türkiye and Czechia play. Times are shown in your time zone.</p>
+  <p class="lede">Every tournament this season, plus when Canada, Spain, Türkiye and Czechia play. Times are shown in your time zone.</p>
 
   <section class="card">
     <h2>Add it to your calendar</h2>
@@ -60,6 +60,7 @@ footer { color: var(--muted); font-size: .82rem; margin-top: 40px; }
 
   <div class="filters" role="group" aria-label="Filter the listing">
     <button class="filter" data-f="CAN" aria-pressed="true">🇨🇦 Canada</button>
+    <button class="filter" data-f="ESP" aria-pressed="true">🇪🇸 Spain</button>
     <button class="filter" data-f="TUR" aria-pressed="true">🇹🇷 Türkiye</button>
     <button class="filter" data-f="CZE" aria-pressed="true">🇨🇿 Czechia</button>
     <button class="filter" data-f="OPEN" aria-pressed="true">Playoffs</button>
@@ -72,7 +73,7 @@ footer { color: var(--muted); font-size: .82rem; margin-top: 40px; }
 </main>
 <script>
 const DATA = /*DATA*/null;
-const on = new Set(["CAN", "TUR", "CZE", "OPEN", "BLOCK"]);
+const on = new Set(["CAN", "ESP", "TUR", "CZE", "OPEN", "BLOCK"]);
 const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 const dayFmt = new Intl.DateTimeFormat(undefined, { weekday: "long", day: "numeric", month: "long" });
 const timeFmt = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false });

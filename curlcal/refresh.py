@@ -12,11 +12,12 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 from . import parsers, season
 
-USER_AGENT = "curling-calendar/0.1"
+USER_AGENT = "curling-calendar/0.1 (github.com/maynardflies/curling-calendar)"
 ATTEMPTS = 3
 GSOC = "https://www.thegrandslamofcurling.com"
 _cache = {}
@@ -32,7 +33,7 @@ def fetch(url):
                     _cache[url] = response.read().decode("utf-8", errors="replace")
                 break
             except (urllib.error.URLError, TimeoutError) as error:
-                if attempt == ATTEMPTS:
+                if attempt == ATTEMPTS or getattr(error, "code", 500) < 500:
                     raise
                 print(f"retrying {url}: {error}", file=sys.stderr)
     return _cache[url]
@@ -47,6 +48,15 @@ def draws_for(event, teams):
     if kind == "gsoc":
         path = parsers.find_gsoc_article(fetch(event["url"]), event["source"]["keyword"])
         return parsers.parse_gsoc_article(fetch(GSOC + path), event, teams) if path else []
+    if kind == "wikipedia":
+        title = urllib.parse.quote(event["source"]["page"])
+        try:
+            text = fetch(f"https://en.wikipedia.org/w/index.php?title={title}&action=raw")
+        except urllib.error.HTTPError as error:
+            if error.code == 404:
+                return []  # expected until the 2027 article is written
+            raise
+        return parsers.parse_wikipedia(text, event)
     raise parsers.ParseError(f"{event['id']}: unknown source type {kind!r}")
 
 
