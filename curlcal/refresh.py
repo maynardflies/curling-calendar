@@ -17,16 +17,24 @@ import urllib.request
 from . import parsers, season
 
 USER_AGENT = "curling-calendar/0.1"
+ATTEMPTS = 3
 GSOC = "https://www.thegrandslamofcurling.com"
 _cache = {}
 
 
 def fetch(url):
     if url not in _cache:
-        time.sleep(1)  # stay polite: these are small sites
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(request, timeout=30) as response:
-            _cache[url] = response.read().decode("utf-8", errors="replace")
+        for attempt in range(1, ATTEMPTS + 1):
+            time.sleep(attempt)  # stay polite: these are small sites
+            try:
+                with urllib.request.urlopen(request, timeout=45) as response:
+                    _cache[url] = response.read().decode("utf-8", errors="replace")
+                break
+            except (urllib.error.URLError, TimeoutError) as error:
+                if attempt == ATTEMPTS:
+                    raise
+                print(f"retrying {url}: {error}", file=sys.stderr)
     return _cache[url]
 
 
