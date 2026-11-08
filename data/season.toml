@@ -1,0 +1,416 @@
+# The 2026-27 curling season. This file is the source of truth for WHICH events exist.
+# Draw-level data is generated into data/draws/ by `python -m curlcal.refresh`.
+#
+# tier 1 = headline event, game entries go on the personal calendar too.
+# tier 2 = lower-profile, tournament block only on the personal calendar.
+# end is the last day of play (inclusive). tz is the venue's IANA time zone.
+
+season = "2026-27"
+tracked = ["CAN", "TUR", "CZE"]
+
+# worldcurling.org/events/<slug>/ entries that are deliberately not on the calendar.
+ignored_wcf_slugs = ["congress", "europeans", "olympics", "page", "paralympics", "wcpqe", "wcpqpc", "yog2024"]
+
+[watch]
+gsoc = "DAZN (free outside Canada and the US) carries the afternoon and evening draws, playoffs and finals. Rock Channel has every game (C$19.99/month)."
+rock_league = "DAZN (free outside Canada and the US), or Rock Channel."
+tsn = "TSN."
+tsn_worlds = "TSN, or a Curling Channel season pass (US$99.99)."
+curling_channel = "Curling Channel (season pass US$99.99)."
+wcf_scores = "No stream listed by World Curling. Live scores: livescores.worldcurling.org"
+canadian = "Coverage not confirmed. Check curling.ca closer to the event."
+
+[[event]]
+id = "wcq-men"
+name = "World Championship Qualifier (Men)"
+start = 2026-11-08
+end = 2026-11-13
+city = "Aberdeen, Scotland"
+tz = "Europe/London"
+tier = 1
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/menworldqualifier/"
+source = { type = "wcf" }
+game_hours = 2.5
+
+[[event]]
+id = "canadian-mixed"
+name = "Canadian Mixed Championship"
+start = 2026-11-08
+end = 2026-11-14
+city = "Woodstock, PE"
+tz = "America/Halifax"
+tier = 1
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "gsoc-national"
+name = "GSOC National"
+start = 2026-11-17
+end = 2026-11-22
+city = "Sydney, NS"
+tz = "America/Halifax"
+tier = 1
+watch = "gsoc"
+url = "https://www.thegrandslamofcurling.com/events/gsoc-national-10"
+source = { type = "gsoc", keyword = "national" }
+game_hours = 2.5
+
+[[event]]
+id = "wcq-women"
+name = "World Championship Qualifier (Women)"
+start = 2026-11-21
+end = 2026-11-26
+city = "Östersund, Sweden"
+tz = "Europe/Stockholm"
+tier = 1
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/womenworldqualifier/"
+source = { type = "wcf" }
+game_hours = 2.5
+
+[[event]]
+id = "canadian-club"
+name = "Canadian Curling Club Championships"
+start = 2026-11-21
+end = 2026-11-28
+city = "St. Thomas, ON"
+tz = "America/Toronto"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "wheelchair-b"
+name = "World Wheelchair-B Championship"
+start = 2026-11-22
+end = 2026-11-28
+city = "Lohja, Finland"
+tz = "Europe/Helsinki"
+tier = 2
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldwheelchairb/"
+source = { type = "wcf" }
+game_hours = 2.0
+
+[[event]]
+id = "gsoc-open"
+name = "GSOC Open"
+start = 2026-12-01
+end = 2026-12-06
+city = "Thunder Bay, ON"
+tz = "America/Toronto"
+tier = 1
+watch = "gsoc"
+url = "https://www.thegrandslamofcurling.com/events/gsoc-open-9"
+source = { type = "gsoc", keyword = "open" }
+game_hours = 2.5
+
+[[event]]
+id = "canadian-seniors"
+name = "Canadian Senior Championships"
+start = 2026-12-05
+end = 2026-12-12
+city = "Saskatoon, SK"
+tz = "America/Regina"
+tier = 1
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "junior-b"
+name = "World Junior-B Championships"
+start = 2026-12-08
+end = 2026-12-21
+city = "Lohja, Finland"
+tz = "Europe/Helsinki"
+tier = 2
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldjuniorb/"
+source = { type = "wcf" }
+game_hours = 2.5
+
+[[event]]
+id = "gsoc-players"
+name = "GSOC Players' Cup"
+start = 2026-12-15
+end = 2026-12-20
+city = "Kingston, ON"
+tz = "America/Toronto"
+tier = 1
+watch = "gsoc"
+url = "https://www.thegrandslamofcurling.com/events/gsoc-players-cup-11"
+source = { type = "gsoc", keyword = "players" }
+game_hours = 2.5
+
+[[event]]
+id = "world-mixed-doubles"
+name = "World Mixed Doubles Championship"
+start = 2027-01-04
+end = 2027-01-10
+city = "Lohja, Finland"
+tz = "Europe/Helsinki"
+tier = 1
+watch = "curling_channel"
+url = "https://worldcurling.org/events/worldmixeddoubles/"
+source = { type = "wcf" }
+game_hours = 1.75
+
+[[event]]
+id = "rl-moose-jaw"
+name = "Rock League: Moose Jaw"
+start = 2027-01-07
+end = 2027-01-10
+city = "Moose Jaw, SK"
+tz = "America/Regina"
+tier = 1
+watch = "rock_league"
+url = "https://rockleague.com/schedule"
+source = { type = "rock_league" }
+game_hours = 2.5
+
+[[event]]
+id = "rl-utica"
+name = "Rock League: Utica"
+start = 2027-01-28
+end = 2027-01-31
+city = "Utica, NY"
+tz = "America/New_York"
+tier = 1
+watch = "rock_league"
+url = "https://rockleague.com/schedule"
+source = { type = "rock_league" }
+game_hours = 2.5
+
+[[event]]
+id = "rl-ottawa"
+name = "Rock League: Ottawa"
+start = 2027-02-04
+end = 2027-02-07
+city = "Ottawa, ON"
+tz = "America/Toronto"
+tier = 1
+watch = "rock_league"
+url = "https://rockleague.com/schedule"
+source = { type = "rock_league" }
+game_hours = 2.5
+
+[[event]]
+id = "world-juniors"
+name = "World Junior Championships"
+start = 2027-02-06
+end = 2027-02-14
+city = "Aberdeen, Scotland"
+tz = "Europe/London"
+tier = 1
+watch = "curling_channel"
+url = "https://worldcurling.org/events/worldjuniors/"
+source = { type = "wcf" }
+game_hours = 2.5
+
+[[event]]
+id = "scotties"
+name = "Scotties Tournament of Hearts"
+start = 2027-02-12
+end = 2027-02-21
+city = "Charlottetown, PE"
+tz = "America/Halifax"
+tier = 1
+watch = "tsn"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "world-wheelchair"
+name = "World Wheelchair Championship"
+start = 2027-02-20
+end = 2027-02-27
+city = "Lohja, Finland"
+tz = "Europe/Helsinki"
+tier = 1
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldwheelchair/"
+source = { type = "wcf" }
+game_hours = 2.0
+
+[[event]]
+id = "canadian-university"
+name = "U SPORTS University Championships"
+start = 2027-02-22
+end = 2027-02-26
+city = "Calgary, AB"
+tz = "America/Edmonton"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "canadian-college"
+name = "CCAA College Championships"
+start = 2027-02-22
+end = 2027-02-26
+city = "Calgary, AB"
+tz = "America/Edmonton"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "brier"
+name = "Montana's Brier"
+start = 2027-02-26
+end = 2027-03-07
+city = "Saskatoon, SK"
+tz = "America/Regina"
+tier = 1
+watch = "tsn"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "world-wheelchair-md"
+name = "World Wheelchair Mixed Doubles"
+start = 2027-03-01
+end = 2027-03-08
+city = "Lohja, Finland"
+tz = "Europe/Helsinki"
+tier = 2
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldwheelchairmixeddoubles/"
+source = { type = "wcf" }
+game_hours = 1.75
+
+# Host city not announced yet. Add source = { type = "wcf" } and the real tz once it is.
+[[event]]
+id = "world-women"
+name = "World Women's Championship"
+start = 2027-03-13
+end = 2027-03-21
+city = "Location TBA"
+tz = "UTC"
+tier = 1
+watch = "tsn_worlds"
+url = "https://worldcurling.org/events/worldwomens/"
+game_hours = 2.75
+
+[[event]]
+id = "canadian-u20"
+name = "Canadian Under-20 Championships"
+start = 2027-03-20
+end = 2027-03-27
+city = "Rivière-du-Loup, QC"
+tz = "America/Toronto"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "world-men"
+name = "World Men's Championship"
+start = 2027-03-26
+end = 2027-04-04
+city = "Saint John, NB"
+tz = "America/Moncton"
+tier = 1
+watch = "tsn_worlds"
+url = "https://worldcurling.org/events/worldmens/"
+source = { type = "wcf" }
+game_hours = 2.75
+
+[[event]]
+id = "world-mixed"
+name = "World Mixed Championship"
+start = 2027-04-03
+end = 2027-04-10
+city = "Penticton, BC"
+tz = "America/Vancouver"
+tier = 1
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldmixed/"
+source = { type = "wcf" }
+game_hours = 2.0
+
+[[event]]
+id = "rl-red-deer"
+name = "Rock League: Red Deer"
+start = 2027-04-08
+end = 2027-04-11
+city = "Red Deer, AB"
+tz = "America/Edmonton"
+tier = 1
+watch = "rock_league"
+url = "https://rockleague.com/schedule"
+source = { type = "rock_league" }
+game_hours = 2.5
+
+[[event]]
+id = "wmd-qualifier"
+name = "World Mixed Doubles Qualification Event"
+start = 2027-04-10
+end = 2027-04-17
+city = "Winnipeg, MB"
+tz = "America/Winnipeg"
+tier = 2
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldmixeddoublesqualifier/"
+game_hours = 1.75
+
+[[event]]
+id = "rl-championship"
+name = "Rock League: Championship"
+start = 2027-04-15
+end = 2027-04-18
+city = "Kalamazoo, MI"
+tz = "America/Detroit"
+tier = 1
+watch = "rock_league"
+url = "https://rockleague.com/schedule"
+source = { type = "rock_league" }
+game_hours = 2.5
+
+[[event]]
+id = "canadian-u18"
+name = "Canadian Under-18 Championships"
+start = 2027-04-18
+end = 2027-04-24
+city = "Okotoks, AB"
+tz = "America/Edmonton"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "canadian-wheelchair"
+name = "Canadian Wheelchair Championship"
+start = 2027-04-19
+end = 2027-04-24
+city = "Richmond, BC"
+tz = "America/Vancouver"
+tier = 2
+watch = "canadian"
+url = "https://www.tsn.ca/curling/article/2026-27-championship-curling/"
+
+[[event]]
+id = "world-seniors"
+name = "World Senior Championships"
+start = 2027-04-24
+end = 2027-05-01
+city = "Kelowna, BC"
+tz = "America/Vancouver"
+tier = 1
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/worldseniors/"
+source = { type = "wcf" }
+game_hours = 2.0
+
+[[event]]
+id = "world-junior-md"
+name = "World Junior Mixed Doubles Championship"
+start = 2027-05-04
+end = 2027-05-10
+city = "Edmonton, AB"
+tz = "America/Edmonton"
+tier = 2
+watch = "wcf_scores"
+url = "https://worldcurling.org/events/juniormixeddoubles/"
+source = { type = "wcf" }
+game_hours = 1.75

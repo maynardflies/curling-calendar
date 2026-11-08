@@ -1,0 +1,1208 @@
+[
+ {
+  "id": "junior-b-20261208-1000-men",
+  "local": "2026-12-08T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "TUR",
+    "a_c": "AUS",
+    "b_c": "TUR"
+   },
+   {
+    "a": "CZE",
+    "b": "NZL",
+    "a_c": "CZE",
+    "b_c": "NZL"
+   },
+   {
+    "a": "CHN",
+    "b": "HUN",
+    "a_c": "CHN",
+    "b_c": "HUN"
+   },
+   {
+    "a": "SLO",
+    "b": "KAZ",
+    "a_c": "SLO",
+    "b_c": "KAZ"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261208-1430-men",
+  "local": "2026-12-08T14:30",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ENG",
+    "b": "RUS",
+    "a_c": "ENG",
+    "b_c": "RUS"
+   },
+   {
+    "a": "PHI",
+    "b": "SWE",
+    "a_c": "PHI",
+    "b_c": "SWE"
+   },
+   {
+    "a": "BRA",
+    "b": "LAT",
+    "a_c": "BRA",
+    "b_c": "LAT"
+   },
+   {
+    "a": "AUT",
+    "b": "FIN",
+    "a_c": "AUT",
+    "b_c": "FIN"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261208-1900-men",
+  "local": "2026-12-08T19:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "KAZ",
+    "b": "GER",
+    "a_c": "KAZ",
+    "b_c": "GER"
+   },
+   {
+    "a": "HUN",
+    "b": "ROU",
+    "a_c": "HUN",
+    "b_c": "ROU"
+   },
+   {
+    "a": "TUR",
+    "b": "QAT",
+    "a_c": "TUR",
+    "b_c": "QAT"
+   },
+   {
+    "a": "TPE",
+    "b": "AUS",
+    "a_c": "TPE",
+    "b_c": "AUS"
+   },
+   {
+    "a": "ESP",
+    "b": "HKG",
+    "a_c": "ESP",
+    "b_c": "HKG"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261209-1000-men",
+  "local": "2026-12-09T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "QAT",
+    "b": "TPE",
+    "a_c": "QAT",
+    "b_c": "TPE"
+   },
+   {
+    "a": "PHI",
+    "b": "LAT",
+    "a_c": "PHI",
+    "b_c": "LAT"
+   },
+   {
+    "a": "HKG",
+    "b": "KAZ",
+    "a_c": "HKG",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "SWE",
+    "b": "BRA",
+    "a_c": "SWE",
+    "b_c": "BRA"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261209-1430-men",
+  "local": "2026-12-09T14:30",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NZL",
+    "b": "ESP",
+    "a_c": "NZL",
+    "b_c": "ESP"
+   },
+   {
+    "a": "FIN",
+    "b": "ENG",
+    "a_c": "FIN",
+    "b_c": "ENG"
+   },
+   {
+    "a": "AUT",
+    "b": "RUS",
+    "a_c": "AUT",
+    "b_c": "RUS"
+   },
+   {
+    "a": "GER",
+    "b": "CZE",
+    "a_c": "GER",
+    "b_c": "CZE"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261209-1900-men",
+  "local": "2026-12-09T19:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HUN",
+    "b": "TUR",
+    "a_c": "HUN",
+    "b_c": "TUR"
+   },
+   {
+    "a": "QAT",
+    "b": "AUS",
+    "a_c": "QAT",
+    "b_c": "AUS"
+   },
+   {
+    "a": "SLO",
+    "b": "HKG",
+    "a_c": "SLO",
+    "b_c": "HKG"
+   },
+   {
+    "a": "CHN",
+    "b": "ROU",
+    "a_c": "CHN",
+    "b_c": "ROU"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261210-1000-men",
+  "local": "2026-12-10T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LAT",
+    "b": "FIN",
+    "a_c": "LAT",
+    "b_c": "FIN"
+   },
+   {
+    "a": "BRA",
+    "b": "AUT",
+    "a_c": "BRA",
+    "b_c": "AUT"
+   },
+   {
+    "a": "GER",
+    "b": "ESP",
+    "a_c": "GER",
+    "b_c": "ESP"
+   },
+   {
+    "a": "ENG",
+    "b": "SWE",
+    "a_c": "ENG",
+    "b_c": "SWE"
+   },
+   {
+    "a": "RUS",
+    "b": "PHI",
+    "a_c": "RUS",
+    "b_c": "PHI"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261210-1430-men",
+  "local": "2026-12-10T14:30",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "CHN",
+    "a_c": "AUS",
+    "b_c": "CHN"
+   },
+   {
+    "a": "CZE",
+    "b": "SLO",
+    "a_c": "CZE",
+    "b_c": "SLO"
+   },
+   {
+    "a": "TPE",
+    "b": "HUN",
+    "a_c": "TPE",
+    "b_c": "HUN"
+   },
+   {
+    "a": "ROU",
+    "b": "TUR",
+    "a_c": "ROU",
+    "b_c": "TUR"
+   },
+   {
+    "a": "KAZ",
+    "b": "NZL",
+    "a_c": "KAZ",
+    "b_c": "NZL"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261210-1900-men",
+  "local": "2026-12-10T19:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "PHI",
+    "b": "ENG",
+    "a_c": "PHI",
+    "b_c": "ENG"
+   },
+   {
+    "a": "SWE",
+    "b": "RUS",
+    "a_c": "SWE",
+    "b_c": "RUS"
+   },
+   {
+    "a": "AUT",
+    "b": "LAT",
+    "a_c": "AUT",
+    "b_c": "LAT"
+   },
+   {
+    "a": "FIN",
+    "b": "BRA",
+    "a_c": "FIN",
+    "b_c": "BRA"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261211-1000-men",
+  "local": "2026-12-11T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NZL",
+    "b": "HKG",
+    "a_c": "NZL",
+    "b_c": "HKG"
+   },
+   {
+    "a": "CHN",
+    "b": "TPE",
+    "a_c": "CHN",
+    "b_c": "TPE"
+   },
+   {
+    "a": "SLO",
+    "b": "GER",
+    "a_c": "SLO",
+    "b_c": "GER"
+   },
+   {
+    "a": "CZE",
+    "b": "ESP",
+    "a_c": "CZE",
+    "b_c": "ESP"
+   },
+   {
+    "a": "ROU",
+    "b": "QAT",
+    "a_c": "ROU",
+    "b_c": "QAT"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261211-1430-men",
+  "local": "2026-12-11T14:30",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "RUS",
+    "b": "LAT",
+    "a_c": "RUS",
+    "b_c": "LAT"
+   },
+   {
+    "a": "ENG",
+    "b": "BRA",
+    "a_c": "ENG",
+    "b_c": "BRA"
+   },
+   {
+    "a": "SWE",
+    "b": "FIN",
+    "a_c": "SWE",
+    "b_c": "FIN"
+   },
+   {
+    "a": "PHI",
+    "b": "AUT",
+    "a_c": "PHI",
+    "b_c": "AUT"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261211-1900-men",
+  "local": "2026-12-11T19:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "TPE",
+    "b": "ROU",
+    "a_c": "TPE",
+    "b_c": "ROU"
+   },
+   {
+    "a": "TUR",
+    "b": "CHN",
+    "a_c": "TUR",
+    "b_c": "CHN"
+   },
+   {
+    "a": "NZL",
+    "b": "SLO",
+    "a_c": "NZL",
+    "b_c": "SLO"
+   },
+   {
+    "a": "KAZ",
+    "b": "CZE",
+    "a_c": "KAZ",
+    "b_c": "CZE"
+   },
+   {
+    "a": "AUS",
+    "b": "HUN",
+    "a_c": "AUS",
+    "b_c": "HUN"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261212-1000-men",
+  "local": "2026-12-12T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUT",
+    "b": "SWE",
+    "a_c": "AUT",
+    "b_c": "SWE"
+   },
+   {
+    "a": "FIN",
+    "b": "PHI",
+    "a_c": "FIN",
+    "b_c": "PHI"
+   },
+   {
+    "a": "BRA",
+    "b": "RUS",
+    "a_c": "BRA",
+    "b_c": "RUS"
+   },
+   {
+    "a": "LAT",
+    "b": "ENG",
+    "a_c": "LAT",
+    "b_c": "ENG"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261212-1430-men",
+  "local": "2026-12-12T14:30",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HKG",
+    "b": "CZE",
+    "a_c": "HKG",
+    "b_c": "CZE"
+   },
+   {
+    "a": "ESP",
+    "b": "KAZ",
+    "a_c": "ESP",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "QAT",
+    "b": "CHN",
+    "a_c": "QAT",
+    "b_c": "CHN"
+   },
+   {
+    "a": "GER",
+    "b": "NZL",
+    "a_c": "GER",
+    "b_c": "NZL"
+   },
+   {
+    "a": "TUR",
+    "b": "TPE",
+    "a_c": "TUR",
+    "b_c": "TPE"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261212-1900-men",
+  "local": "2026-12-12T19:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "BRA",
+    "b": "PHI",
+    "a_c": "BRA",
+    "b_c": "PHI"
+   },
+   {
+    "a": "LAT",
+    "b": "SWE",
+    "a_c": "LAT",
+    "b_c": "SWE"
+   },
+   {
+    "a": "ENG",
+    "b": "AUT",
+    "a_c": "ENG",
+    "b_c": "AUT"
+   },
+   {
+    "a": "RUS",
+    "b": "FIN",
+    "a_c": "RUS",
+    "b_c": "FIN"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261213-1000-men",
+  "local": "2026-12-13T10:00",
+  "label": "Men",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ESP",
+    "b": "SLO",
+    "a_c": "ESP",
+    "b_c": "SLO"
+   },
+   {
+    "a": "HKG",
+    "b": "GER",
+    "a_c": "HKG",
+    "b_c": "GER"
+   },
+   {
+    "a": "ROU",
+    "b": "AUS",
+    "a_c": "ROU",
+    "b_c": "AUS"
+   },
+   {
+    "a": "HUN",
+    "b": "QAT",
+    "a_c": "HUN",
+    "b_c": "QAT"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261213-1600-men-qualifiers",
+  "local": "2026-12-13T16:00",
+  "label": "Men Qualifiers",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261214-1000-men-qualifiers",
+  "local": "2026-12-14T10:00",
+  "label": "Men Qualifiers",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261214-1000-men-semi-finals",
+  "local": "2026-12-14T10:00",
+  "label": "Men Semi-finals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261214-1600-men-medals",
+  "local": "2026-12-14T16:00",
+  "label": "Men Medals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261216-1000-women",
+  "local": "2026-12-16T10:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "SLO",
+    "b": "RUS",
+    "a_c": "SLO",
+    "b_c": "RUS"
+   },
+   {
+    "a": "ESP",
+    "b": "FIN",
+    "a_c": "ESP",
+    "b_c": "FIN"
+   },
+   {
+    "a": "BEL",
+    "b": "CZE",
+    "a_c": "BEL",
+    "b_c": "CZE"
+   },
+   {
+    "a": "EST",
+    "b": "NOR",
+    "a_c": "EST",
+    "b_c": "NOR"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261216-1430-women",
+  "local": "2026-12-16T14:30",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ROU",
+    "b": "NZL",
+    "a_c": "ROU",
+    "b_c": "NZL"
+   },
+   {
+    "a": "TPE",
+    "b": "LAT",
+    "a_c": "TPE",
+    "b_c": "LAT"
+   },
+   {
+    "a": "ENG",
+    "b": "ITA",
+    "a_c": "ENG",
+    "b_c": "ITA"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261216-1900-women",
+  "local": "2026-12-16T19:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "CZE",
+    "b": "EST",
+    "a_c": "CZE",
+    "b_c": "EST"
+   },
+   {
+    "a": "LTU",
+    "b": "HKG",
+    "a_c": "LTU",
+    "b_c": "HKG"
+   },
+   {
+    "a": "BEL",
+    "b": "AUS",
+    "a_c": "BEL",
+    "b_c": "AUS"
+   },
+   {
+    "a": "KAZ",
+    "b": "HUN",
+    "a_c": "KAZ",
+    "b_c": "HUN"
+   },
+   {
+    "a": "POL",
+    "b": "SLO",
+    "a_c": "POL",
+    "b_c": "SLO"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261217-1000-women",
+  "local": "2026-12-17T10:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NOR",
+    "b": "NZL",
+    "a_c": "NOR",
+    "b_c": "NZL"
+   },
+   {
+    "a": "HKG",
+    "b": "ENG",
+    "a_c": "HKG",
+    "b_c": "ENG"
+   },
+   {
+    "a": "CZE",
+    "b": "ROU",
+    "a_c": "CZE",
+    "b_c": "ROU"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261217-1430-women",
+  "local": "2026-12-17T14:30",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ITA",
+    "b": "KAZ",
+    "a_c": "ITA",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "LAT",
+    "b": "POL",
+    "a_c": "LAT",
+    "b_c": "POL"
+   },
+   {
+    "a": "FIN",
+    "b": "SLO",
+    "a_c": "FIN",
+    "b_c": "SLO"
+   },
+   {
+    "a": "RUS",
+    "b": "ESP",
+    "a_c": "RUS",
+    "b_c": "ESP"
+   },
+   {
+    "a": "HUN",
+    "b": "LTU",
+    "a_c": "HUN",
+    "b_c": "LTU"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261217-1900-women",
+  "local": "2026-12-17T19:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "CZE",
+    "a_c": "AUS",
+    "b_c": "CZE"
+   },
+   {
+    "a": "ROU",
+    "b": "NOR",
+    "a_c": "ROU",
+    "b_c": "NOR"
+   },
+   {
+    "a": "NZL",
+    "b": "BEL",
+    "a_c": "NZL",
+    "b_c": "BEL"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261218-1000-women",
+  "local": "2026-12-18T10:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "ROU",
+    "a_c": "AUS",
+    "b_c": "ROU"
+   },
+   {
+    "a": "TPE",
+    "b": "RUS",
+    "a_c": "TPE",
+    "b_c": "RUS"
+   },
+   {
+    "a": "EST",
+    "b": "NZL",
+    "a_c": "EST",
+    "b_c": "NZL"
+   },
+   {
+    "a": "LAT",
+    "b": "SLO",
+    "a_c": "LAT",
+    "b_c": "SLO"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261218-1430-women",
+  "local": "2026-12-18T14:30",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LTU",
+    "b": "ENG",
+    "a_c": "LTU",
+    "b_c": "ENG"
+   },
+   {
+    "a": "CZE",
+    "b": "NOR",
+    "a_c": "CZE",
+    "b_c": "NOR"
+   },
+   {
+    "a": "POL",
+    "b": "ESP",
+    "a_c": "POL",
+    "b_c": "ESP"
+   },
+   {
+    "a": "KAZ",
+    "b": "HKG",
+    "a_c": "KAZ",
+    "b_c": "HKG"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261218-1900-women",
+  "local": "2026-12-18T19:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ROU",
+    "b": "BEL",
+    "a_c": "ROU",
+    "b_c": "BEL"
+   },
+   {
+    "a": "HUN",
+    "b": "ITA",
+    "a_c": "HUN",
+    "b_c": "ITA"
+   },
+   {
+    "a": "SLO",
+    "b": "TPE",
+    "a_c": "SLO",
+    "b_c": "TPE"
+   },
+   {
+    "a": "NZL",
+    "b": "AUS",
+    "a_c": "NZL",
+    "b_c": "AUS"
+   },
+   {
+    "a": "FIN",
+    "b": "RUS",
+    "a_c": "FIN",
+    "b_c": "RUS"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261219-1000-women",
+  "local": "2026-12-19T10:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ESP",
+    "b": "TPE",
+    "a_c": "ESP",
+    "b_c": "TPE"
+   },
+   {
+    "a": "BEL",
+    "b": "EST",
+    "a_c": "BEL",
+    "b_c": "EST"
+   },
+   {
+    "a": "RUS",
+    "b": "LAT",
+    "a_c": "RUS",
+    "b_c": "LAT"
+   },
+   {
+    "a": "POL",
+    "b": "FIN",
+    "a_c": "POL",
+    "b_c": "FIN"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261219-1430-women",
+  "local": "2026-12-19T14:30",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HKG",
+    "b": "HUN",
+    "a_c": "HKG",
+    "b_c": "HUN"
+   },
+   {
+    "a": "ITA",
+    "b": "LTU",
+    "a_c": "ITA",
+    "b_c": "LTU"
+   },
+   {
+    "a": "ENG",
+    "b": "KAZ",
+    "a_c": "ENG",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "NOR",
+    "b": "AUS",
+    "a_c": "NOR",
+    "b_c": "AUS"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261219-1900-women",
+  "local": "2026-12-19T19:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LAT",
+    "b": "FIN",
+    "a_c": "LAT",
+    "b_c": "FIN"
+   },
+   {
+    "a": "SLO",
+    "b": "ESP",
+    "a_c": "SLO",
+    "b_c": "ESP"
+   },
+   {
+    "a": "NZL",
+    "b": "CZE",
+    "a_c": "NZL",
+    "b_c": "CZE"
+   },
+   {
+    "a": "EST",
+    "b": "ROU",
+    "a_c": "EST",
+    "b_c": "ROU"
+   },
+   {
+    "a": "TPE",
+    "b": "POL",
+    "a_c": "TPE",
+    "b_c": "POL"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261220-0900-women",
+  "local": "2026-12-20T09:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "KAZ",
+    "b": "LTU",
+    "a_c": "KAZ",
+    "b_c": "LTU"
+   },
+   {
+    "a": "ENG",
+    "b": "HUN",
+    "a_c": "ENG",
+    "b_c": "HUN"
+   },
+   {
+    "a": "ITA",
+    "b": "HKG",
+    "a_c": "ITA",
+    "b_c": "HKG"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261220-1300-women",
+  "local": "2026-12-20T13:00",
+  "label": "Women",
+  "playoff": false,
+  "games": [
+   {
+    "a": "RUS",
+    "b": "POL",
+    "a_c": "RUS",
+    "b_c": "POL"
+   },
+   {
+    "a": "FIN",
+    "b": "TPE",
+    "a_c": "FIN",
+    "b_c": "TPE"
+   },
+   {
+    "a": "AUS",
+    "b": "EST",
+    "a_c": "AUS",
+    "b_c": "EST"
+   },
+   {
+    "a": "NOR",
+    "b": "BEL",
+    "a_c": "NOR",
+    "b_c": "BEL"
+   },
+   {
+    "a": "ESP",
+    "b": "LAT",
+    "a_c": "ESP",
+    "b_c": "LAT"
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261220-1900-women-qualification",
+  "local": "2026-12-20T19:00",
+  "label": "Women Qualification",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261221-1000-women-qualifer",
+  "local": "2026-12-21T10:00",
+  "label": "Women Qualifer",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261221-1000-women-semi-finals",
+  "local": "2026-12-21T10:00",
+  "label": "Women Semi-finals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261221-1600-women-qualifier",
+  "local": "2026-12-21T16:00",
+  "label": "Women Qualifier",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "junior-b-20261221-1600-women-medals",
+  "local": "2026-12-21T16:00",
+  "label": "Women Medals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ }
+]

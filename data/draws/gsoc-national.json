@@ -1,0 +1,556 @@
+[
+ {
+  "id": "gsoc-national-20261117-0830-draw-1",
+  "local": "2026-11-17T08:30",
+  "label": "Draw 1",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Y. Schwaller",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Einarson",
+    "b": "O'Hara",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Hardie",
+    "b": "Eriksson",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Hasselborg",
+    "b": "Fujisawa",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261117-1200-draw-2",
+  "local": "2026-11-17T12:00",
+  "label": "Draw 2",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Hösli",
+    "b": "Bottcher",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Casper",
+    "b": "Waddell",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Homan",
+    "b": "Sturmay",
+    "a_c": "CAN",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Gim",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261117-1600-draw-3",
+  "local": "2026-11-17T16:00",
+  "label": "Draw 3",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Jacobs",
+    "b": "McDonald",
+    "a_c": "CAN",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Dunstone",
+    "b": "Spiller",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Nihira",
+    "b": "Park",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Wranå",
+    "b": "Kim",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261117-2000-draw-4",
+  "local": "2026-11-17T20:00",
+  "label": "Draw 4",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Mouat",
+    "b": "Yamaguchi",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "X. Schwaller",
+    "b": "Black",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Epping",
+    "b": "Shuster",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Pätz",
+    "b": "Kobayashi",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261118-0830-draw-5",
+  "local": "2026-11-18T08:30",
+  "label": "Draw 5",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Nihira",
+    "b": "O'Hara",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Wranå",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Hösli",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Casper",
+    "b": "Spiller",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261118-1200-draw-6",
+  "local": "2026-11-18T12:00",
+  "label": "Draw 6",
+  "playoff": false,
+  "games": [
+   {
+    "a": "X. Schwaller",
+    "b": "Fujisawa",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Gim",
+    "b": "Kim",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Y. Schwaller",
+    "b": "Bottcher",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Dunstone",
+    "b": "Waddell",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261118-1600-draw-7",
+  "local": "2026-11-18T16:00",
+  "label": "Draw 7",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Einarson",
+    "b": "Park",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Pätz",
+    "b": "Sturmay",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Yamaguchi",
+    "b": "McDonald",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Hardie",
+    "b": "Epping",
+    "a_c": "",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261118-2000-draw-8",
+  "local": "2026-11-18T20:00",
+  "label": "Draw 8",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Hasselborg",
+    "b": "Black",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Homan",
+    "b": "Kobayashi",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Jacobs",
+    "b": "Mouat",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Eriksson",
+    "b": "Shuster",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261119-0800-draw-9",
+  "local": "2026-11-19T08:00",
+  "label": "Draw 9",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Hösli",
+    "b": "McDonald",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "X. Schwaller",
+    "b": "Park",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Spiller",
+    "b": "Waddell",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Pätz",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261119-1130-draw-10",
+  "local": "2026-11-19T11:30",
+  "label": "Draw 10",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Mouat",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Einarson",
+    "b": "Fujisawa",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Gim",
+    "b": "Kobayashi",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Hasselborg",
+    "b": "O'Hara",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261119-1530-draw-11",
+  "local": "2026-11-19T15:30",
+  "label": "Draw 11",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Hardie",
+    "b": "Shuster",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Dunstone",
+    "b": "Casper",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Wranå",
+    "b": "Sturmay",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Homan",
+    "b": "Kim",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261119-1930-draw-12",
+  "local": "2026-11-19T19:30",
+  "label": "Draw 12",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Y. Schwaller",
+    "b": "Yamaguchi",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Nihira",
+    "b": "Black",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Eriksson",
+    "b": "Epping",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Jacobs",
+    "b": "Bottcher",
+    "a_c": "CAN",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261120-0830-draw-13",
+  "local": "2026-11-20T08:30",
+  "label": "Draw 13",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Kobayashi",
+    "b": "Sturmay",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Kim",
+    "b": "Halifax Qualifier",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Park",
+    "b": "O'Hara",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Hardie",
+    "b": "Spiller",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261120-1200-draw-14",
+  "local": "2026-11-20T12:00",
+  "label": "Draw 14",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Dunstone",
+    "b": "Epping",
+    "a_c": "CAN",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Bottcher",
+    "b": "Halifax Qualifier",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "X. Schwaller",
+    "b": "Hasselborg",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Y. Schwaller",
+    "b": "Hösli",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261120-1600-draw-15",
+  "local": "2026-11-20T16:00",
+  "label": "Draw 15",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Gim",
+    "b": "Wranå",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Mouat",
+    "b": "McDonald",
+    "a_c": "",
+    "b_c": "CAN"
+   },
+   {
+    "a": "Casper",
+    "b": "Shuster",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Fujisawa",
+    "b": "Black",
+    "a_c": "",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261120-2000-draw-16",
+  "local": "2026-11-20T20:00",
+  "label": "Draw 16",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Waddell",
+    "b": "Eriksson",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "Jacobs",
+    "b": "Yamaguchi",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Homan",
+    "b": "Pätz",
+    "a_c": "CAN",
+    "b_c": ""
+   },
+   {
+    "a": "Einarson",
+    "b": "Nihira",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "gsoc-national-20261121-0730-draw-17",
+  "local": "2026-11-21T07:30",
+  "label": "Draw 17 / Tiebreakers (if necessary)",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "gsoc-national-20261121-1100-draw-18",
+  "local": "2026-11-21T11:00",
+  "label": "Draw 18 / Women's Quarterfinals",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "gsoc-national-20261121-1500-draw-19",
+  "local": "2026-11-21T15:00",
+  "label": "Draw 19 / Men's Quarterfinals",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "gsoc-national-20261121-2000-draw-20",
+  "local": "2026-11-21T20:00",
+  "label": "Draw 20 / Men's and Women's Semifinals",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "gsoc-national-20261122-1100-draw-21",
+  "local": "2026-11-22T11:00",
+  "label": "Draw 21 / Women's Final",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "gsoc-national-20261122-1500-draw-22",
+  "local": "2026-11-22T15:00",
+  "label": "Draw 22 / Men's Final",
+  "playoff": true,
+  "games": []
+ }
+]

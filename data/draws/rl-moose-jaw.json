@@ -1,0 +1,128 @@
+[
+ {
+  "id": "rl-moose-jaw-20270107-1200-maple-united-v-northern-united",
+  "local": "2027-01-07T12:00",
+  "label": "Maple United v Northern United",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Maple United",
+    "b": "Northern United",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270107-1530-alpine-curling-club-v-frontier-curling-club",
+  "local": "2027-01-07T15:30",
+  "label": "Alpine Curling Club v Frontier Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Alpine Curling Club",
+    "b": "Frontier Curling Club",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270107-1900-shield-curling-club-v-typhoon-curling-club",
+  "local": "2027-01-07T19:00",
+  "label": "Shield Curling Club v Typhoon Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Shield Curling Club",
+    "b": "Typhoon Curling Club",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270108-1200-alpine-curling-club-v-typhoon-curling-club",
+  "local": "2027-01-08T12:00",
+  "label": "Alpine Curling Club v Typhoon Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Alpine Curling Club",
+    "b": "Typhoon Curling Club",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270108-1530-frontier-curling-club-v-northern-united",
+  "local": "2027-01-08T15:30",
+  "label": "Frontier Curling Club v Northern United",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Frontier Curling Club",
+    "b": "Northern United",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270108-1530-maple-united-v-shield-curling-club",
+  "local": "2027-01-08T15:30",
+  "label": "Maple United v Shield Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Maple United",
+    "b": "Shield Curling Club",
+    "a_c": "CAN",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "rl-moose-jaw-20270109-1100-seed-1-v-seed-6",
+  "local": "2027-01-09T11:00",
+  "label": "Seed 1 v Seed 6",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-moose-jaw-20270109-1800-seed-2-v-seed-5",
+  "local": "2027-01-09T18:00",
+  "label": "Seed 2 v Seed 5",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-moose-jaw-20270109-2100-seed-3-v-seed-4",
+  "local": "2027-01-09T21:00",
+  "label": "Seed 3 v Seed 4",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-moose-jaw-20270110-0900-seed-1-v-seed-4",
+  "local": "2027-01-10T09:00",
+  "label": "Seed 1 v Seed 4",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-moose-jaw-20270110-1200-seed-2-v-seed-3",
+  "local": "2027-01-10T12:00",
+  "label": "Seed 2 v Seed 3",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-moose-jaw-20270110-1500-final",
+  "local": "2027-01-10T15:00",
+  "label": "Final",
+  "playoff": true,
+  "games": []
+ }
+]

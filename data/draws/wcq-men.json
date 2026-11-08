@@ -1,0 +1,525 @@
+[
+ {
+  "id": "wcq-men-20261108-1000",
+  "local": "2026-11-08T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "ESP",
+    "b": "TUR",
+    "a_c": "ESP",
+    "b_c": "TUR"
+   },
+   {
+    "a": "AUT",
+    "b": "HKG",
+    "a_c": "AUT",
+    "b_c": "HKG"
+   },
+   {
+    "a": "NOR",
+    "b": "MEX",
+    "a_c": "NOR",
+    "b_c": "MEX"
+   },
+   {
+    "a": "DEN",
+    "b": "KAZ",
+    "a_c": "DEN",
+    "b_c": "KAZ"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261108-1430",
+  "local": "2026-11-08T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "IND",
+    "b": "SLO",
+    "a_c": "IND",
+    "b_c": "SLO"
+   },
+   {
+    "a": "AUS",
+    "b": "LAT",
+    "a_c": "AUS",
+    "b_c": "LAT"
+   },
+   {
+    "a": "PHI",
+    "b": "NZL",
+    "a_c": "PHI",
+    "b_c": "NZL"
+   },
+   {
+    "a": "BEL",
+    "b": "NED",
+    "a_c": "BEL",
+    "b_c": "NED"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261108-1900",
+  "local": "2026-11-08T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HKG",
+    "b": "NOR",
+    "a_c": "HKG",
+    "b_c": "NOR"
+   },
+   {
+    "a": "TUR",
+    "b": "KAZ",
+    "a_c": "TUR",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "DEN",
+    "b": "ESP",
+    "a_c": "DEN",
+    "b_c": "ESP"
+   },
+   {
+    "a": "AUT",
+    "b": "MEX",
+    "a_c": "AUT",
+    "b_c": "MEX"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261109-1000",
+  "local": "2026-11-09T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LAT",
+    "b": "PHI",
+    "a_c": "LAT",
+    "b_c": "PHI"
+   },
+   {
+    "a": "SLO",
+    "b": "NED",
+    "a_c": "SLO",
+    "b_c": "NED"
+   },
+   {
+    "a": "BEL",
+    "b": "IND",
+    "a_c": "BEL",
+    "b_c": "IND"
+   },
+   {
+    "a": "AUS",
+    "b": "NZL",
+    "a_c": "AUS",
+    "b_c": "NZL"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261109-1430",
+  "local": "2026-11-09T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUT",
+    "b": "KAZ",
+    "a_c": "AUT",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "MEX",
+    "b": "DEN",
+    "a_c": "MEX",
+    "b_c": "DEN"
+   },
+   {
+    "a": "HKG",
+    "b": "TUR",
+    "a_c": "HKG",
+    "b_c": "TUR"
+   },
+   {
+    "a": "ESP",
+    "b": "NOR",
+    "a_c": "ESP",
+    "b_c": "NOR"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261109-1900",
+  "local": "2026-11-09T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "NED",
+    "a_c": "AUS",
+    "b_c": "NED"
+   },
+   {
+    "a": "NZL",
+    "b": "BEL",
+    "a_c": "NZL",
+    "b_c": "BEL"
+   },
+   {
+    "a": "LAT",
+    "b": "SLO",
+    "a_c": "LAT",
+    "b_c": "SLO"
+   },
+   {
+    "a": "IND",
+    "b": "PHI",
+    "a_c": "IND",
+    "b_c": "PHI"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261110-1000",
+  "local": "2026-11-10T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "DEN",
+    "b": "HKG",
+    "a_c": "DEN",
+    "b_c": "HKG"
+   },
+   {
+    "a": "ESP",
+    "b": "AUT",
+    "a_c": "ESP",
+    "b_c": "AUT"
+   },
+   {
+    "a": "KAZ",
+    "b": "NOR",
+    "a_c": "KAZ",
+    "b_c": "NOR"
+   },
+   {
+    "a": "MEX",
+    "b": "TUR",
+    "a_c": "MEX",
+    "b_c": "TUR"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261110-1430",
+  "local": "2026-11-10T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "BEL",
+    "b": "LAT",
+    "a_c": "BEL",
+    "b_c": "LAT"
+   },
+   {
+    "a": "IND",
+    "b": "AUS",
+    "a_c": "IND",
+    "b_c": "AUS"
+   },
+   {
+    "a": "NED",
+    "b": "PHI",
+    "a_c": "NED",
+    "b_c": "PHI"
+   },
+   {
+    "a": "NZL",
+    "b": "SLO",
+    "a_c": "NZL",
+    "b_c": "SLO"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261110-1900",
+  "local": "2026-11-10T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "KAZ",
+    "b": "MEX",
+    "a_c": "KAZ",
+    "b_c": "MEX"
+   },
+   {
+    "a": "NOR",
+    "b": "TUR",
+    "a_c": "NOR",
+    "b_c": "TUR"
+   },
+   {
+    "a": "AUT",
+    "b": "DEN",
+    "a_c": "AUT",
+    "b_c": "DEN"
+   },
+   {
+    "a": "HKG",
+    "b": "ESP",
+    "a_c": "HKG",
+    "b_c": "ESP"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261111-1000",
+  "local": "2026-11-11T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NED",
+    "b": "NZL",
+    "a_c": "NED",
+    "b_c": "NZL"
+   },
+   {
+    "a": "PHI",
+    "b": "SLO",
+    "a_c": "PHI",
+    "b_c": "SLO"
+   },
+   {
+    "a": "AUS",
+    "b": "BEL",
+    "a_c": "AUS",
+    "b_c": "BEL"
+   },
+   {
+    "a": "LAT",
+    "b": "IND",
+    "a_c": "LAT",
+    "b_c": "IND"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261111-1430",
+  "local": "2026-11-11T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NOR",
+    "b": "AUT",
+    "a_c": "NOR",
+    "b_c": "AUT"
+   },
+   {
+    "a": "HKG",
+    "b": "MEX",
+    "a_c": "HKG",
+    "b_c": "MEX"
+   },
+   {
+    "a": "ESP",
+    "b": "KAZ",
+    "a_c": "ESP",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "TUR",
+    "b": "DEN",
+    "a_c": "TUR",
+    "b_c": "DEN"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261111-1900",
+  "local": "2026-11-11T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "PHI",
+    "b": "AUS",
+    "a_c": "PHI",
+    "b_c": "AUS"
+   },
+   {
+    "a": "LAT",
+    "b": "NZL",
+    "a_c": "LAT",
+    "b_c": "NZL"
+   },
+   {
+    "a": "IND",
+    "b": "NED",
+    "a_c": "IND",
+    "b_c": "NED"
+   },
+   {
+    "a": "SLO",
+    "b": "BEL",
+    "a_c": "SLO",
+    "b_c": "BEL"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261112-0900",
+  "local": "2026-11-12T09:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "MEX",
+    "b": "ESP",
+    "a_c": "MEX",
+    "b_c": "ESP"
+   },
+   {
+    "a": "DEN",
+    "b": "NOR",
+    "a_c": "DEN",
+    "b_c": "NOR"
+   },
+   {
+    "a": "TUR",
+    "b": "AUT",
+    "a_c": "TUR",
+    "b_c": "AUT"
+   },
+   {
+    "a": "KAZ",
+    "b": "HKG",
+    "a_c": "KAZ",
+    "b_c": "HKG"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261112-1300",
+  "local": "2026-11-12T13:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NZL",
+    "b": "IND",
+    "a_c": "NZL",
+    "b_c": "IND"
+   },
+   {
+    "a": "BEL",
+    "b": "PHI",
+    "a_c": "BEL",
+    "b_c": "PHI"
+   },
+   {
+    "a": "SLO",
+    "b": "AUS",
+    "a_c": "SLO",
+    "b_c": "AUS"
+   },
+   {
+    "a": "NED",
+    "b": "LAT",
+    "a_c": "NED",
+    "b_c": "LAT"
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261112-1900-semi-finals",
+  "local": "2026-11-12T19:00",
+  "label": "Semi-finals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261113-0900-qualifier",
+  "local": "2026-11-13T09:00",
+  "label": "Qualifier",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261113-0900-bronze",
+  "local": "2026-11-13T09:00",
+  "label": "Bronze",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261113-1500-qualifier",
+  "local": "2026-11-13T15:00",
+  "label": "Qualifier",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-men-20261113-1500-gold",
+  "local": "2026-11-13T15:00",
+  "label": "Gold",
+  "playoff": true,
+  "games": []
+ }
+]

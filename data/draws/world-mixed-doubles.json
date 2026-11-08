@@ -1,0 +1,758 @@
+[
+ {
+  "id": "world-mixed-doubles-20270104-1630",
+  "local": "2027-01-04T16:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "FRA",
+    "b": "FIN",
+    "a_c": "FRA",
+    "b_c": "FIN"
+   },
+   {
+    "a": "SWE",
+    "b": "AUS",
+    "a_c": "SWE",
+    "b_c": "AUS"
+   },
+   {
+    "a": "CAN",
+    "b": "NZL",
+    "a_c": "CAN",
+    "b_c": "NZL"
+   },
+   {
+    "a": "CZE",
+    "b": "CHN",
+    "a_c": "CZE",
+    "b_c": "CHN"
+   },
+   {
+    "a": "NOR",
+    "b": "SUI",
+    "a_c": "NOR",
+    "b_c": "SUI"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270104-2000",
+  "local": "2027-01-04T20:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LAT",
+    "b": "NED",
+    "a_c": "LAT",
+    "b_c": "NED"
+   },
+   {
+    "a": "JPN",
+    "b": "GER",
+    "a_c": "JPN",
+    "b_c": "GER"
+   },
+   {
+    "a": "HUN",
+    "b": "SCO",
+    "a_c": "HUN",
+    "b_c": "SCO"
+   },
+   {
+    "a": "EST",
+    "b": "USA",
+    "a_c": "EST",
+    "b_c": "USA"
+   },
+   {
+    "a": "KOR",
+    "b": "ITA",
+    "a_c": "KOR",
+    "b_c": "ITA"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270105-0900",
+  "local": "2027-01-05T09:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "CZE",
+    "a_c": "AUS",
+    "b_c": "CZE"
+   },
+   {
+    "a": "FIN",
+    "b": "CHN",
+    "a_c": "FIN",
+    "b_c": "CHN"
+   },
+   {
+    "a": "NOR",
+    "b": "FRA",
+    "a_c": "NOR",
+    "b_c": "FRA"
+   },
+   {
+    "a": "SUI",
+    "b": "NZL",
+    "a_c": "SUI",
+    "b_c": "NZL"
+   },
+   {
+    "a": "SWE",
+    "b": "CAN",
+    "a_c": "SWE",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270105-1230",
+  "local": "2027-01-05T12:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "GER",
+    "b": "EST",
+    "a_c": "GER",
+    "b_c": "EST"
+   },
+   {
+    "a": "NED",
+    "b": "USA",
+    "a_c": "NED",
+    "b_c": "USA"
+   },
+   {
+    "a": "KOR",
+    "b": "LAT",
+    "a_c": "KOR",
+    "b_c": "LAT"
+   },
+   {
+    "a": "ITA",
+    "b": "SCO",
+    "a_c": "ITA",
+    "b_c": "SCO"
+   },
+   {
+    "a": "JPN",
+    "b": "HUN",
+    "a_c": "JPN",
+    "b_c": "HUN"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270105-1600",
+  "local": "2027-01-05T16:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NZL",
+    "b": "SWE",
+    "a_c": "NZL",
+    "b_c": "SWE"
+   },
+   {
+    "a": "FRA",
+    "b": "SUI",
+    "a_c": "FRA",
+    "b_c": "SUI"
+   },
+   {
+    "a": "FIN",
+    "b": "CZE",
+    "a_c": "FIN",
+    "b_c": "CZE"
+   },
+   {
+    "a": "CAN",
+    "b": "NOR",
+    "a_c": "CAN",
+    "b_c": "NOR"
+   },
+   {
+    "a": "AUS",
+    "b": "CHN",
+    "a_c": "AUS",
+    "b_c": "CHN"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270105-1930",
+  "local": "2027-01-05T19:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "SCO",
+    "b": "JPN",
+    "a_c": "SCO",
+    "b_c": "JPN"
+   },
+   {
+    "a": "LAT",
+    "b": "ITA",
+    "a_c": "LAT",
+    "b_c": "ITA"
+   },
+   {
+    "a": "NED",
+    "b": "EST",
+    "a_c": "NED",
+    "b_c": "EST"
+   },
+   {
+    "a": "HUN",
+    "b": "KOR",
+    "a_c": "HUN",
+    "b_c": "KOR"
+   },
+   {
+    "a": "GER",
+    "b": "USA",
+    "a_c": "GER",
+    "b_c": "USA"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270106-1000",
+  "local": "2027-01-06T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "CHN",
+    "b": "NOR",
+    "a_c": "CHN",
+    "b_c": "NOR"
+   },
+   {
+    "a": "CAN",
+    "b": "CZE",
+    "a_c": "CAN",
+    "b_c": "CZE"
+   },
+   {
+    "a": "SUI",
+    "b": "AUS",
+    "a_c": "SUI",
+    "b_c": "AUS"
+   },
+   {
+    "a": "NZL",
+    "b": "FRA",
+    "a_c": "NZL",
+    "b_c": "FRA"
+   },
+   {
+    "a": "FIN",
+    "b": "SWE",
+    "a_c": "FIN",
+    "b_c": "SWE"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270106-1400",
+  "local": "2027-01-06T14:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "USA",
+    "b": "KOR",
+    "a_c": "USA",
+    "b_c": "KOR"
+   },
+   {
+    "a": "HUN",
+    "b": "EST",
+    "a_c": "HUN",
+    "b_c": "EST"
+   },
+   {
+    "a": "ITA",
+    "b": "GER",
+    "a_c": "ITA",
+    "b_c": "GER"
+   },
+   {
+    "a": "SCO",
+    "b": "LAT",
+    "a_c": "SCO",
+    "b_c": "LAT"
+   },
+   {
+    "a": "NED",
+    "b": "JPN",
+    "a_c": "NED",
+    "b_c": "JPN"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270106-1800",
+  "local": "2027-01-06T18:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "CAN",
+    "b": "AUS",
+    "a_c": "CAN",
+    "b_c": "AUS"
+   },
+   {
+    "a": "NOR",
+    "b": "FIN",
+    "a_c": "NOR",
+    "b_c": "FIN"
+   },
+   {
+    "a": "FRA",
+    "b": "CHN",
+    "a_c": "FRA",
+    "b_c": "CHN"
+   },
+   {
+    "a": "SWE",
+    "b": "SUI",
+    "a_c": "SWE",
+    "b_c": "SUI"
+   },
+   {
+    "a": "CZE",
+    "b": "NZL",
+    "a_c": "CZE",
+    "b_c": "NZL"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270107-0900",
+  "local": "2027-01-07T09:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HUN",
+    "b": "GER",
+    "a_c": "HUN",
+    "b_c": "GER"
+   },
+   {
+    "a": "KOR",
+    "b": "NED",
+    "a_c": "KOR",
+    "b_c": "NED"
+   },
+   {
+    "a": "LAT",
+    "b": "USA",
+    "a_c": "LAT",
+    "b_c": "USA"
+   },
+   {
+    "a": "JPN",
+    "b": "ITA",
+    "a_c": "JPN",
+    "b_c": "ITA"
+   },
+   {
+    "a": "EST",
+    "b": "SCO",
+    "a_c": "EST",
+    "b_c": "SCO"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270107-1230",
+  "local": "2027-01-07T12:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NOR",
+    "b": "NZL",
+    "a_c": "NOR",
+    "b_c": "NZL"
+   },
+   {
+    "a": "AUS",
+    "b": "FRA",
+    "a_c": "AUS",
+    "b_c": "FRA"
+   },
+   {
+    "a": "CZE",
+    "b": "SWE",
+    "a_c": "CZE",
+    "b_c": "SWE"
+   },
+   {
+    "a": "CHN",
+    "b": "CAN",
+    "a_c": "CHN",
+    "b_c": "CAN"
+   },
+   {
+    "a": "SUI",
+    "b": "FIN",
+    "a_c": "SUI",
+    "b_c": "FIN"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270107-1600",
+  "local": "2027-01-07T16:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "KOR",
+    "b": "SCO",
+    "a_c": "KOR",
+    "b_c": "SCO"
+   },
+   {
+    "a": "GER",
+    "b": "LAT",
+    "a_c": "GER",
+    "b_c": "LAT"
+   },
+   {
+    "a": "EST",
+    "b": "JPN",
+    "a_c": "EST",
+    "b_c": "JPN"
+   },
+   {
+    "a": "USA",
+    "b": "HUN",
+    "a_c": "USA",
+    "b_c": "HUN"
+   },
+   {
+    "a": "ITA",
+    "b": "NED",
+    "a_c": "ITA",
+    "b_c": "NED"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270107-1930",
+  "local": "2027-01-07T19:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "SWE",
+    "b": "CHN",
+    "a_c": "SWE",
+    "b_c": "CHN"
+   },
+   {
+    "a": "SUI",
+    "b": "CAN",
+    "a_c": "SUI",
+    "b_c": "CAN"
+   },
+   {
+    "a": "NZL",
+    "b": "FIN",
+    "a_c": "NZL",
+    "b_c": "FIN"
+   },
+   {
+    "a": "NOR",
+    "b": "AUS",
+    "a_c": "NOR",
+    "b_c": "AUS"
+   },
+   {
+    "a": "FRA",
+    "b": "CZE",
+    "a_c": "FRA",
+    "b_c": "CZE"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270108-1000",
+  "local": "2027-01-08T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "JPN",
+    "b": "USA",
+    "a_c": "JPN",
+    "b_c": "USA"
+   },
+   {
+    "a": "ITA",
+    "b": "HUN",
+    "a_c": "ITA",
+    "b_c": "HUN"
+   },
+   {
+    "a": "SCO",
+    "b": "NED",
+    "a_c": "SCO",
+    "b_c": "NED"
+   },
+   {
+    "a": "KOR",
+    "b": "GER",
+    "a_c": "KOR",
+    "b_c": "GER"
+   },
+   {
+    "a": "LAT",
+    "b": "EST",
+    "a_c": "LAT",
+    "b_c": "EST"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270108-1230",
+  "local": "2027-01-08T12:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "FIN",
+    "b": "CAN",
+    "a_c": "FIN",
+    "b_c": "CAN"
+   },
+   {
+    "a": "CZE",
+    "b": "NOR",
+    "a_c": "CZE",
+    "b_c": "NOR"
+   },
+   {
+    "a": "CHN",
+    "b": "SUI",
+    "a_c": "CHN",
+    "b_c": "SUI"
+   },
+   {
+    "a": "FRA",
+    "b": "SWE",
+    "a_c": "FRA",
+    "b_c": "SWE"
+   },
+   {
+    "a": "NZL",
+    "b": "AUS",
+    "a_c": "NZL",
+    "b_c": "AUS"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270108-1800",
+  "local": "2027-01-08T18:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NED",
+    "b": "HUN",
+    "a_c": "NED",
+    "b_c": "HUN"
+   },
+   {
+    "a": "EST",
+    "b": "KOR",
+    "a_c": "EST",
+    "b_c": "KOR"
+   },
+   {
+    "a": "USA",
+    "b": "ITA",
+    "a_c": "USA",
+    "b_c": "ITA"
+   },
+   {
+    "a": "LAT",
+    "b": "JPN",
+    "a_c": "LAT",
+    "b_c": "JPN"
+   },
+   {
+    "a": "SCO",
+    "b": "GER",
+    "a_c": "SCO",
+    "b_c": "GER"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270109-0900",
+  "local": "2027-01-09T09:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "CZE",
+    "b": "SUI",
+    "a_c": "CZE",
+    "b_c": "SUI"
+   },
+   {
+    "a": "CHN",
+    "b": "NZL",
+    "a_c": "CHN",
+    "b_c": "NZL"
+   },
+   {
+    "a": "SWE",
+    "b": "NOR",
+    "a_c": "SWE",
+    "b_c": "NOR"
+   },
+   {
+    "a": "AUS",
+    "b": "FIN",
+    "a_c": "AUS",
+    "b_c": "FIN"
+   },
+   {
+    "a": "CAN",
+    "b": "FRA",
+    "a_c": "CAN",
+    "b_c": "FRA"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270109-1230",
+  "local": "2027-01-09T12:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "EST",
+    "b": "ITA",
+    "a_c": "EST",
+    "b_c": "ITA"
+   },
+   {
+    "a": "USA",
+    "b": "SCO",
+    "a_c": "USA",
+    "b_c": "SCO"
+   },
+   {
+    "a": "JPN",
+    "b": "KOR",
+    "a_c": "JPN",
+    "b_c": "KOR"
+   },
+   {
+    "a": "GER",
+    "b": "NED",
+    "a_c": "GER",
+    "b_c": "NED"
+   },
+   {
+    "a": "HUN",
+    "b": "LAT",
+    "a_c": "HUN",
+    "b_c": "LAT"
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270109-1900-qualification",
+  "local": "2027-01-09T19:00",
+  "label": "Qualification",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270110-0900-semi-finals",
+  "local": "2027-01-10T09:00",
+  "label": "Semi-finals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "world-mixed-doubles-20270110-1500-medals",
+  "local": "2027-01-10T15:00",
+  "label": "Medals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ }
+]

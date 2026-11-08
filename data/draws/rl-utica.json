@@ -1,0 +1,128 @@
+[
+ {
+  "id": "rl-utica-20270128-1200-maple-united-v-typhoon-curling-club",
+  "local": "2027-01-28T12:00",
+  "label": "Maple United v Typhoon Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Maple United",
+    "b": "Typhoon Curling Club",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270128-1530-alpine-curling-club-v-northern-united",
+  "local": "2027-01-28T15:30",
+  "label": "Alpine Curling Club v Northern United",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Alpine Curling Club",
+    "b": "Northern United",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270128-1900-shield-curling-club-v-frontier-curling-club",
+  "local": "2027-01-28T19:00",
+  "label": "Shield Curling Club v Frontier Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Shield Curling Club",
+    "b": "Frontier Curling Club",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270129-1200-alpine-curling-club-v-shield-curling-club",
+  "local": "2027-01-29T12:00",
+  "label": "Alpine Curling Club v Shield Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Alpine Curling Club",
+    "b": "Shield Curling Club",
+    "a_c": "",
+    "b_c": "CAN"
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270129-1530-northern-united-v-typhoon-curling-club",
+  "local": "2027-01-29T15:30",
+  "label": "Northern United v Typhoon Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Northern United",
+    "b": "Typhoon Curling Club",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270129-1900-maple-united-v-frontier-curling-club",
+  "local": "2027-01-29T19:00",
+  "label": "Maple United v Frontier Curling Club",
+  "playoff": false,
+  "games": [
+   {
+    "a": "Maple United",
+    "b": "Frontier Curling Club",
+    "a_c": "CAN",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "rl-utica-20270130-1200-seed-1-v-seed-6",
+  "local": "2027-01-30T12:00",
+  "label": "Seed 1 v Seed 6",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-utica-20270130-1530-seed-2-v-seed-5",
+  "local": "2027-01-30T15:30",
+  "label": "Seed 2 v Seed 5",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-utica-20270130-1900-seed-3-v-seed-4",
+  "local": "2027-01-30T19:00",
+  "label": "Seed 3 v Seed 4",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-utica-20270131-1000-seed-1-v-seed-4",
+  "local": "2027-01-31T10:00",
+  "label": "Seed 1 v Seed 4",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-utica-20270131-1300-seed-2-v-seed-3",
+  "local": "2027-01-31T13:00",
+  "label": "Seed 2 v Seed 3",
+  "playoff": true,
+  "games": []
+ },
+ {
+  "id": "rl-utica-20270131-1600-final",
+  "local": "2027-01-31T16:00",
+  "label": "Final",
+  "playoff": true,
+  "games": []
+ }
+]

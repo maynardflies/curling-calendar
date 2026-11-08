@@ -1,0 +1,532 @@
+[
+ {
+  "id": "wcq-women-20261121-1000",
+  "local": "2026-11-21T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "GER",
+    "b": "TPE",
+    "a_c": "GER",
+    "b_c": "TPE"
+   },
+   {
+    "a": "AUS",
+    "b": "FRA",
+    "a_c": "AUS",
+    "b_c": "FRA"
+   },
+   {
+    "a": "MEX",
+    "b": "POL",
+    "a_c": "MEX",
+    "b_c": "POL"
+   },
+   {
+    "a": "EST",
+    "b": "KAZ",
+    "a_c": "EST",
+    "b_c": "KAZ"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261121-1430",
+  "local": "2026-11-21T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HUN",
+    "b": "ENG",
+    "a_c": "HUN",
+    "b_c": "ENG"
+   },
+   {
+    "a": "CZE",
+    "b": "LAT",
+    "a_c": "CZE",
+    "b_c": "LAT"
+   },
+   {
+    "a": "PHI",
+    "b": "NZL",
+    "a_c": "PHI",
+    "b_c": "NZL"
+   },
+   {
+    "a": "HKG",
+    "b": "LTU",
+    "a_c": "HKG",
+    "b_c": "LTU"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261121-1900",
+  "local": "2026-11-21T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "FRA",
+    "b": "MEX",
+    "a_c": "FRA",
+    "b_c": "MEX"
+   },
+   {
+    "a": "TPE",
+    "b": "KAZ",
+    "a_c": "TPE",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "EST",
+    "b": "GER",
+    "a_c": "EST",
+    "b_c": "GER"
+   },
+   {
+    "a": "AUS",
+    "b": "POL",
+    "a_c": "AUS",
+    "b_c": "POL"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261122-1000",
+  "local": "2026-11-22T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LAT",
+    "b": "PHI",
+    "a_c": "LAT",
+    "b_c": "PHI"
+   },
+   {
+    "a": "ENG",
+    "b": "LTU",
+    "a_c": "ENG",
+    "b_c": "LTU"
+   },
+   {
+    "a": "HKG",
+    "b": "HUN",
+    "a_c": "HKG",
+    "b_c": "HUN"
+   },
+   {
+    "a": "CZE",
+    "b": "NZL",
+    "a_c": "CZE",
+    "b_c": "NZL"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261122-1430",
+  "local": "2026-11-22T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "AUS",
+    "b": "KAZ",
+    "a_c": "AUS",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "POL",
+    "b": "EST",
+    "a_c": "POL",
+    "b_c": "EST"
+   },
+   {
+    "a": "FRA",
+    "b": "TPE",
+    "a_c": "FRA",
+    "b_c": "TPE"
+   },
+   {
+    "a": "GER",
+    "b": "MEX",
+    "a_c": "GER",
+    "b_c": "MEX"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261122-1900",
+  "local": "2026-11-22T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "CZE",
+    "b": "LTU",
+    "a_c": "CZE",
+    "b_c": "LTU"
+   },
+   {
+    "a": "NZL",
+    "b": "HKG",
+    "a_c": "NZL",
+    "b_c": "HKG"
+   },
+   {
+    "a": "LAT",
+    "b": "ENG",
+    "a_c": "LAT",
+    "b_c": "ENG"
+   },
+   {
+    "a": "HUN",
+    "b": "PHI",
+    "a_c": "HUN",
+    "b_c": "PHI"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261123-1000",
+  "local": "2026-11-23T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "EST",
+    "b": "FRA",
+    "a_c": "EST",
+    "b_c": "FRA"
+   },
+   {
+    "a": "GER",
+    "b": "AUS",
+    "a_c": "GER",
+    "b_c": "AUS"
+   },
+   {
+    "a": "KAZ",
+    "b": "MEX",
+    "a_c": "KAZ",
+    "b_c": "MEX"
+   },
+   {
+    "a": "POL",
+    "b": "TPE",
+    "a_c": "POL",
+    "b_c": "TPE"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261123-1430",
+  "local": "2026-11-23T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "HKG",
+    "b": "LAT",
+    "a_c": "HKG",
+    "b_c": "LAT"
+   },
+   {
+    "a": "HUN",
+    "b": "CZE",
+    "a_c": "HUN",
+    "b_c": "CZE"
+   },
+   {
+    "a": "LTU",
+    "b": "PHI",
+    "a_c": "LTU",
+    "b_c": "PHI"
+   },
+   {
+    "a": "NZL",
+    "b": "ENG",
+    "a_c": "NZL",
+    "b_c": "ENG"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261123-1900",
+  "local": "2026-11-23T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "KAZ",
+    "b": "POL",
+    "a_c": "KAZ",
+    "b_c": "POL"
+   },
+   {
+    "a": "MEX",
+    "b": "TPE",
+    "a_c": "MEX",
+    "b_c": "TPE"
+   },
+   {
+    "a": "AUS",
+    "b": "EST",
+    "a_c": "AUS",
+    "b_c": "EST"
+   },
+   {
+    "a": "FRA",
+    "b": "GER",
+    "a_c": "FRA",
+    "b_c": "GER"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261124-1000",
+  "local": "2026-11-24T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "LTU",
+    "b": "NZL",
+    "a_c": "LTU",
+    "b_c": "NZL"
+   },
+   {
+    "a": "PHI",
+    "b": "ENG",
+    "a_c": "PHI",
+    "b_c": "ENG"
+   },
+   {
+    "a": "CZE",
+    "b": "HKG",
+    "a_c": "CZE",
+    "b_c": "HKG"
+   },
+   {
+    "a": "LAT",
+    "b": "HUN",
+    "a_c": "LAT",
+    "b_c": "HUN"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261124-1430",
+  "local": "2026-11-24T14:30",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "MEX",
+    "b": "AUS",
+    "a_c": "MEX",
+    "b_c": "AUS"
+   },
+   {
+    "a": "FRA",
+    "b": "POL",
+    "a_c": "FRA",
+    "b_c": "POL"
+   },
+   {
+    "a": "GER",
+    "b": "KAZ",
+    "a_c": "GER",
+    "b_c": "KAZ"
+   },
+   {
+    "a": "TPE",
+    "b": "EST",
+    "a_c": "TPE",
+    "b_c": "EST"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261124-1900",
+  "local": "2026-11-24T19:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "PHI",
+    "b": "CZE",
+    "a_c": "PHI",
+    "b_c": "CZE"
+   },
+   {
+    "a": "LAT",
+    "b": "NZL",
+    "a_c": "LAT",
+    "b_c": "NZL"
+   },
+   {
+    "a": "HUN",
+    "b": "LTU",
+    "a_c": "HUN",
+    "b_c": "LTU"
+   },
+   {
+    "a": "ENG",
+    "b": "HKG",
+    "a_c": "ENG",
+    "b_c": "HKG"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261125-0900",
+  "local": "2026-11-25T09:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "POL",
+    "b": "GER",
+    "a_c": "POL",
+    "b_c": "GER"
+   },
+   {
+    "a": "EST",
+    "b": "MEX",
+    "a_c": "EST",
+    "b_c": "MEX"
+   },
+   {
+    "a": "TPE",
+    "b": "AUS",
+    "a_c": "TPE",
+    "b_c": "AUS"
+   },
+   {
+    "a": "KAZ",
+    "b": "FRA",
+    "a_c": "KAZ",
+    "b_c": "FRA"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261125-1300",
+  "local": "2026-11-25T13:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "NZL",
+    "b": "HUN",
+    "a_c": "NZL",
+    "b_c": "HUN"
+   },
+   {
+    "a": "HKG",
+    "b": "PHI",
+    "a_c": "HKG",
+    "b_c": "PHI"
+   },
+   {
+    "a": "ENG",
+    "b": "CZE",
+    "a_c": "ENG",
+    "b_c": "CZE"
+   },
+   {
+    "a": "LTU",
+    "b": "LAT",
+    "a_c": "LTU",
+    "b_c": "LAT"
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261125-1900-semi-finals",
+  "local": "2026-11-25T19:00",
+  "label": "Semi-finals",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261126-0900-qualification",
+  "local": "2026-11-26T09:00",
+  "label": "Qualification",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   },
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261126-0900-bronze",
+  "local": "2026-11-26T09:00",
+  "label": "Bronze",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261126-1500-qualification",
+  "local": "2026-11-26T15:00",
+  "label": "Qualification",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ },
+ {
+  "id": "wcq-women-20261126-1500-gold",
+  "local": "2026-11-26T15:00",
+  "label": "Gold",
+  "playoff": true,
+  "games": [
+   {
+    "a": "TBC",
+    "b": "TBC",
+    "a_c": "",
+    "b_c": ""
+   }
+  ]
+ }
+]

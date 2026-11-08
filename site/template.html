@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curling on TV</title>
+<meta name="description" content="Every curling tournament of the season, and when Canada, Türkiye and Czechia play, in your own time zone.">
+<style>
+:root {
+  --bg: #f3f6f9; --card: #ffffff; --ink: #14212e; --muted: #5b6b7b; --line: #dbe3ea;
+  --accent: #c8102e; --accent-ink: #ffffff; --blue: #1f5f99; --chip: #e7eef4;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0e151c; --card: #17212b; --ink: #e9eff5; --muted: #98a8b8; --line: #2a3744;
+          --accent: #ef4a5f; --accent-ink: #14060a; --blue: #7db8ea; --chip: #223040; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+.lede { color: var(--muted); margin: 0 0 24px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+.card h2 { font-size: 1rem; margin: 0 0 4px; }
+.card p { margin: 0 0 12px; color: var(--muted); font-size: .92rem; }
+.buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.button { display: inline-block; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line);
+          background: var(--card); color: var(--ink); text-decoration: none; font: inherit; font-size: .92rem; cursor: pointer; }
+.button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 8px; }
+.filter { padding: 6px 12px; border-radius: 999px; border: 1px solid transparent; background: var(--chip);
+          color: var(--muted); font: inherit; font-size: .9rem; cursor: pointer; }
+.filter[aria-pressed="true"] { background: var(--blue); color: var(--card); font-weight: 600; }
+.zone { color: var(--muted); font-size: .85rem; margin: 0 0 16px; }
+h3.day { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 24px 0 8px; }
+ul.items { list-style: none; margin: 0; padding: 0; }
+.item { display: grid; grid-template-columns: 56px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.time { font-variant-numeric: tabular-nums; font-weight: 600; }
+.what { font-weight: 600; overflow-wrap: anywhere; }
+.where { color: var(--muted); font-size: .88rem; }
+.tag { font-size: .75rem; color: var(--blue); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.empty { color: var(--muted); padding: 24px 0; }
+footer { color: var(--muted); font-size: .82rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Curling on TV</h1>
+  <p class="lede">Every tournament this season, plus when Canada, Türkiye and Czechia play. Times are shown in your time zone.</p>
+
+  <section class="card">
+    <h2>Add it to your calendar</h2>
+    <p>Subscribe once and it keeps itself up to date. Calendars added by link don't carry per-event reminders.</p>
+    <div class="buttons">
+      <a class="button primary" id="google" href="#">Add to Google Calendar</a>
+      <a class="button" id="webcal" href="#">Apple / Outlook</a>
+      <button class="button" id="copy" type="button">Copy link</button>
+    </div>
+  </section>
+
+  <div class="filters" role="group" aria-label="Filter the listing">
+    <button class="filter" data-f="CAN" aria-pressed="true">🇨🇦 Canada</button>
+    <button class="filter" data-f="TUR" aria-pressed="true">🇹🇷 Türkiye</button>
+    <button class="filter" data-f="CZE" aria-pressed="true">🇨🇿 Czechia</button>
+    <button class="filter" data-f="OPEN" aria-pressed="true">Playoffs</button>
+    <button class="filter" data-f="BLOCK" aria-pressed="true">Tournaments</button>
+  </div>
+  <p class="zone" id="zone"></p>
+  <div id="list"></div>
+
+  <footer>Schedules come from World Curling, the Grand Slam of Curling and Rock League, and can change. Game listings appear as each event publishes its draw.</footer>
+</main>
+<script>
+const DATA = /*DATA*/null;
+const on = new Set(["CAN", "TUR", "CZE", "OPEN", "BLOCK"]);
+const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+const dayFmt = new Intl.DateTimeFormat(undefined, { weekday: "long", day: "numeric", month: "long" });
+const timeFmt = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false });
+const localDay = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const parseDay = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+
+function items() {
+  const today = localDay(new Date());
+  const now = Date.now();
+  const out = [];
+  if (on.has("BLOCK")) for (const b of DATA.blocks) {
+    if (b.end < today) continue;
+    out.push({ sort: b.start + "T00", day: b.start < today ? today : b.start, block: b });
+  }
+  for (const g of DATA.games) {
+    const start = new Date(g.start);
+    if (new Date(g.end).getTime() < now) continue;
+    const wanted = g.countries.length ? g.countries.some(c => on.has(c)) : on.has("OPEN");
+    if (wanted) out.push({ sort: localDay(start) + "T" + timeFmt.format(start), day: localDay(start), game: g, start });
+  }
+  return out.sort((a, b) => a.sort < b.sort ? -1 : 1);
+}
+
+function row(time, what, where, tag) {
+  const li = document.createElement("li");
+  li.className = "item";
+  const t = document.createElement("div"); t.className = "time"; t.textContent = time;
+  const body = document.createElement("div");
+  if (tag) { const x = document.createElement("div"); x.className = "tag"; x.textContent = tag; body.append(x); }
+  const w = document.createElement("div"); w.className = "what"; w.textContent = what;
+  const p = document.createElement("div"); p.className = "where"; p.textContent = where;
+  body.append(w, p);
+  li.append(t, body);
+  return li;
+}
+
+function render() {
+  const list = document.getElementById("list");
+  list.replaceChildren();
+  let day = null, ul = null;
+  const all = items();
+  if (!all.length) { list.innerHTML = '<p class="empty">Nothing matches those filters.</p>'; return; }
+  for (const i of all) {
+    if (i.day !== day) {
+      day = i.day;
+      const h = document.createElement("h3"); h.className = "day"; h.textContent = dayFmt.format(parseDay(day));
+      ul = document.createElement("ul"); ul.className = "items";
+      list.append(h, ul);
+    }
+    if (i.block) {
+      const b = i.block;
+      const range = `${dayFmt.format(parseDay(b.start))} to ${dayFmt.format(parseDay(b.end))}`;
+      ul.append(row("", b.name, `${b.city} · ${range}. ${b.watch}`, "Tournament"));
+    } else {
+      const g = i.game;
+      ul.append(row(timeFmt.format(i.start), g.summary, `${g.city}. ${DATA.watch[g.watch_key]}`));
+    }
+  }
+}
+
+document.querySelectorAll(".filter").forEach(btn => btn.addEventListener("click", () => {
+  const f = btn.dataset.f;
+  if (on.has(f)) on.delete(f); else on.add(f);
+  btn.setAttribute("aria-pressed", on.has(f));
+  render();
+}));
+
+const feed = new URL("all.ics", location.href).href;
+const webcal = feed.replace(/^https?:/, "webcal:");
+document.getElementById("webcal").href = webcal;
+document.getElementById("google").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
+document.getElementById("copy").addEventListener("click", async e => {
+  try {
+    await navigator.clipboard.writeText(feed);
+    e.target.textContent = "Copied";
+  } catch (error) {
+    console.error("clipboard write failed", error);
+    e.target.textContent = feed;
+  }
+});
+document.getElementById("zone").textContent = `Showing ${zone} time.`;
+render();
+</script>
+</body>
+</html>
