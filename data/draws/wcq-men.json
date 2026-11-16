@@ -454,16 +454,16 @@
   "playoff": true,
   "games": [
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "NOR",
+    "b": "PHI",
+    "a_c": "NOR",
+    "b_c": "PHI"
    },
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "DEN",
+    "b": "NED",
+    "a_c": "DEN",
+    "b_c": "NED"
    }
   ]
  },
@@ -474,16 +474,16 @@
   "playoff": true,
   "games": [
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "AUT",
+    "b": "AUS",
+    "a_c": "AUT",
+    "b_c": "AUS"
    },
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "TUR",
+    "b": "SLO",
+    "a_c": "TUR",
+    "b_c": "SLO"
    }
   ]
  },
@@ -494,10 +494,10 @@
   "playoff": true,
   "games": [
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "PHI",
+    "b": "DEN",
+    "a_c": "PHI",
+    "b_c": "DEN"
    }
   ]
  },
@@ -508,10 +508,10 @@
   "playoff": true,
   "games": [
    {
-    "a": "TBC",
-    "b": "TBC",
-    "a_c": "",
-    "b_c": ""
+    "a": "AUS",
+    "b": "TUR",
+    "a_c": "AUS",
+    "b_c": "TUR"
    }
   ]
  },
@@ -520,6 +520,13 @@
   "local": "2026-11-13T15:00",
   "label": "Gold",
   "playoff": true,
-  "games": []
+  "games": [
+   {
+    "a": "NED",
+    "b": "NOR",
+    "a_c": "NED",
+    "b_c": "NOR"
+   }
+  ]
  }
 ]
