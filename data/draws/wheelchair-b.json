@@ -6,22 +6,22 @@
   "playoff": false,
   "games": [
    {
-    "a": "CZE",
-    "b": "ESP",
-    "a_c": "CZE",
-    "b_c": "ESP"
+    "a": "SUI",
+    "b": "ITA",
+    "a_c": "SUI",
+    "b_c": "ITA"
    },
    {
-    "a": "ARM",
-    "b": "LAT",
-    "a_c": "ARM",
-    "b_c": "LAT"
+    "a": "USA",
+    "b": "TPE",
+    "a_c": "USA",
+    "b_c": "TPE"
    },
    {
-    "a": "KEN",
-    "b": "FRA",
-    "a_c": "KEN",
-    "b_c": "FRA"
+    "a": "AUS",
+    "b": "POL",
+    "a_c": "AUS",
+    "b_c": "POL"
    }
   ]
  },
@@ -32,22 +32,22 @@
   "playoff": false,
   "games": [
    {
-    "a": "USA",
-    "b": "AUS",
-    "a_c": "USA",
-    "b_c": "AUS"
+    "a": "ESP",
+    "b": "ARM",
+    "a_c": "ESP",
+    "b_c": "ARM"
    },
    {
-    "a": "SUI",
-    "b": "POL",
-    "a_c": "SUI",
-    "b_c": "POL"
+    "a": "CZE",
+    "b": "FRA",
+    "a_c": "CZE",
+    "b_c": "FRA"
    },
    {
-    "a": "TPE",
-    "b": "ITA",
-    "a_c": "TPE",
-    "b_c": "ITA"
+    "a": "JPN",
+    "b": "LAT",
+    "a_c": "JPN",
+    "b_c": "LAT"
    }
   ]
  },
@@ -58,84 +58,6 @@
   "playoff": false,
   "games": [
    {
-    "a": "LAT",
-    "b": "KEN",
-    "a_c": "LAT",
-    "b_c": "KEN"
-   },
-   {
-    "a": "CZE",
-    "b": "FRA",
-    "a_c": "CZE",
-    "b_c": "FRA"
-   },
-   {
-    "a": "JPN",
-    "b": "ARM",
-    "a_c": "JPN",
-    "b_c": "ARM"
-   }
-  ]
- },
- {
-  "id": "wheelchair-b-20261124-0930",
-  "local": "2026-11-24T09:30",
-  "label": "",
-  "playoff": false,
-  "games": [
-   {
-    "a": "SUI",
-    "b": "ITA",
-    "a_c": "SUI",
-    "b_c": "ITA"
-   },
-   {
-    "a": "USA",
-    "b": "TPE",
-    "a_c": "USA",
-    "b_c": "TPE"
-   },
-   {
-    "a": "AUS",
-    "b": "POL",
-    "a_c": "AUS",
-    "b_c": "POL"
-   }
-  ]
- },
- {
-  "id": "wheelchair-b-20261124-1400",
-  "local": "2026-11-24T14:00",
-  "label": "",
-  "playoff": false,
-  "games": [
-   {
-    "a": "ESP",
-    "b": "FRA",
-    "a_c": "ESP",
-    "b_c": "FRA"
-   },
-   {
-    "a": "JPN",
-    "b": "KEN",
-    "a_c": "JPN",
-    "b_c": "KEN"
-   },
-   {
-    "a": "LAT",
-    "b": "CZE",
-    "a_c": "LAT",
-    "b_c": "CZE"
-   }
-  ]
- },
- {
-  "id": "wheelchair-b-20261124-1830",
-  "local": "2026-11-24T18:30",
-  "label": "",
-  "playoff": false,
-  "games": [
-   {
     "a": "ITA",
     "b": "POL",
     "a_c": "ITA",
@@ -156,34 +78,34 @@
   ]
  },
  {
-  "id": "wheelchair-b-20261125-0930",
-  "local": "2026-11-25T09:30",
+  "id": "wheelchair-b-20261124-1000",
+  "local": "2026-11-24T10:00",
   "label": "",
   "playoff": false,
   "games": [
    {
-    "a": "JPN",
+    "a": "FRA",
     "b": "LAT",
-    "a_c": "JPN",
+    "a_c": "FRA",
     "b_c": "LAT"
    },
    {
-    "a": "FRA",
-    "b": "ARM",
-    "a_c": "FRA",
-    "b_c": "ARM"
+    "a": "ESP",
+    "b": "JPN",
+    "a_c": "ESP",
+    "b_c": "JPN"
    },
    {
-    "a": "ESP",
-    "b": "KEN",
-    "a_c": "ESP",
-    "b_c": "KEN"
+    "a": "ARM",
+    "b": "CZE",
+    "a_c": "ARM",
+    "b_c": "CZE"
    }
   ]
  },
  {
-  "id": "wheelchair-b-20261125-1400",
-  "local": "2026-11-25T14:00",
+  "id": "wheelchair-b-20261124-1500",
+  "local": "2026-11-24T15:00",
   "label": "",
   "playoff": false,
   "games": [
@@ -208,16 +130,16 @@
   ]
  },
  {
-  "id": "wheelchair-b-20261125-1830",
-  "local": "2026-11-25T18:30",
+  "id": "wheelchair-b-20261125-0930",
+  "local": "2026-11-25T09:30",
   "label": "",
   "playoff": false,
   "games": [
    {
-    "a": "KEN",
-    "b": "ARM",
-    "a_c": "KEN",
-    "b_c": "ARM"
+    "a": "CZE",
+    "b": "JPN",
+    "a_c": "CZE",
+    "b_c": "JPN"
    },
    {
     "a": "LAT",
@@ -226,42 +148,16 @@
     "b_c": "ESP"
    },
    {
-    "a": "CZE",
-    "b": "JPN",
-    "a_c": "CZE",
-    "b_c": "JPN"
-   }
-  ]
- },
- {
-  "id": "wheelchair-b-20261126-0930",
-  "local": "2026-11-26T09:30",
-  "label": "",
-  "playoff": false,
-  "games": [
-   {
     "a": "FRA",
-    "b": "JPN",
+    "b": "ARM",
     "a_c": "FRA",
-    "b_c": "JPN"
-   },
-   {
-    "a": "KEN",
-    "b": "CZE",
-    "a_c": "KEN",
-    "b_c": "CZE"
-   },
-   {
-    "a": "ARM",
-    "b": "ESP",
-    "a_c": "ARM",
-    "b_c": "ESP"
+    "b_c": "ARM"
    }
   ]
  },
  {
-  "id": "wheelchair-b-20261126-1400",
-  "local": "2026-11-26T14:00",
+  "id": "wheelchair-b-20261125-1400",
+  "local": "2026-11-25T14:00",
   "label": "",
   "playoff": false,
   "games": [
@@ -286,28 +182,80 @@
   ]
  },
  {
-  "id": "wheelchair-b-20261126-1830",
-  "local": "2026-11-26T18:30",
+  "id": "wheelchair-b-20261125-1830",
+  "local": "2026-11-25T18:30",
   "label": "",
   "playoff": false,
   "games": [
    {
-    "a": "ARM",
+    "a": "LAT",
     "b": "CZE",
-    "a_c": "ARM",
+    "a_c": "LAT",
     "b_c": "CZE"
    },
    {
-    "a": "ESP",
-    "b": "JPN",
-    "a_c": "ESP",
-    "b_c": "JPN"
+    "a": "JPN",
+    "b": "ARM",
+    "a_c": "JPN",
+    "b_c": "ARM"
    },
    {
-    "a": "FRA",
+    "a": "ESP",
+    "b": "FRA",
+    "a_c": "ESP",
+    "b_c": "FRA"
+   }
+  ]
+ },
+ {
+  "id": "wheelchair-b-20261126-1000",
+  "local": "2026-11-26T10:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "USA",
+    "b": "ARM",
+    "a_c": "USA",
+    "b_c": "ARM"
+   },
+   {
+    "a": "SUI",
+    "b": "POL",
+    "a_c": "SUI",
+    "b_c": "POL"
+   },
+   {
+    "a": "TPE",
+    "b": "ITA",
+    "a_c": "TPE",
+    "b_c": "ITA"
+   }
+  ]
+ },
+ {
+  "id": "wheelchair-b-20261126-1500",
+  "local": "2026-11-26T15:00",
+  "label": "",
+  "playoff": false,
+  "games": [
+   {
+    "a": "JPN",
+    "b": "FRA",
+    "a_c": "JPN",
+    "b_c": "FRA"
+   },
+   {
+    "a": "ARM",
     "b": "LAT",
-    "a_c": "FRA",
+    "a_c": "ARM",
     "b_c": "LAT"
+   },
+   {
+    "a": "CZE",
+    "b": "ESP",
+    "a_c": "CZE",
+    "b_c": "ESP"
    }
   ]
  },
